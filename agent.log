@@ -1,0 +1,825 @@
+2025-12-10 11:50:33,599 - main - INFO - Initializing Code Generator Agent...
+2025-12-10 11:50:33,599 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 11:50:33,599 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 11:50:33,777 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 11:50:33,777 - agent - INFO - ✅ Agent ready!
+2025-12-10 11:50:33,777 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 11:50:33,778 - main - INFO - ======================================================================
+2025-12-10 11:50:33,778 - main - INFO - 🚀 Code Wizard API Starting Up
+2025-12-10 11:50:33,778 - main - INFO - ======================================================================
+2025-12-10 11:50:33,779 - main - INFO - Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 11:50:33,779 - main - INFO - Agent Status: ✅ Ready
+2025-12-10 11:50:33,779 - main - INFO - ======================================================================
+2025-12-10 11:50:54,617 - main - INFO - Root endpoint accessed
+2025-12-10 11:50:54,636 - main - INFO - Languages endpoint accessed
+2025-12-10 11:50:54,942 - main - INFO - Root endpoint accessed
+2025-12-10 11:50:54,947 - main - INFO - Languages endpoint accessed
+2025-12-10 11:50:55,172 - main - INFO - Root endpoint accessed
+2025-12-10 11:50:55,178 - main - INFO - Languages endpoint accessed
+2025-12-10 11:51:45,623 - main - INFO - 🚀 Generating sql code for: write a query to fetch 5th heighest salary from a ...
+2025-12-10 11:51:45,623 - agent - INFO - 🚀 Generating sql code
+2025-12-10 11:51:45,623 - agent - INFO - 📝 Prompt: write a query to fetch 5th heighest salary from a employee table...
+2025-12-10 11:51:45,624 - agent - INFO - Generating 9 sql solutions...
+2025-12-10 11:51:48,482 - agent - INFO - Sample 1 generated (score: 5.50)
+2025-12-10 11:51:49,887 - agent - INFO - Sample 2 generated (score: 5.50)
+2025-12-10 11:51:51,065 - agent - INFO - Sample 3 generated (score: 6.00)
+2025-12-10 11:51:53,309 - agent - INFO - Sample 4 generated (score: 4.50)
+2025-12-10 11:51:54,041 - agent - INFO - Sample 5 generated (score: 5.50)
+2025-12-10 11:51:56,274 - agent - INFO - Sample 6 generated (score: 6.50)
+2025-12-10 11:51:56,891 - agent - INFO - Sample 9 generated (score: 5.50)
+2025-12-10 11:51:56,891 - agent - INFO - Best solution: Sample 6 (score: 6.50)
+2025-12-10 11:51:56,891 - agent - INFO - ✅ Code generation complete
+2025-12-10 11:51:56,891 - main - INFO - ✅ Code generated successfully
+2025-12-10 11:52:51,377 - main - INFO - 🚀 Generating java code for: a function to check a number prime or not...
+2025-12-10 11:52:51,378 - agent - INFO - 🚀 Generating java code
+2025-12-10 11:52:51,378 - agent - INFO - 📝 Prompt: a function to check a number prime or not...
+2025-12-10 11:52:51,378 - agent - INFO - Generating 9 java solutions...
+2025-12-10 11:52:56,304 - agent - INFO - Sample 1 generated (score: 10.00)
+2025-12-10 11:52:59,432 - agent - INFO - Sample 2 generated (score: 10.00)
+2025-12-10 11:53:01,693 - agent - INFO - Sample 3 generated (score: 10.00)
+2025-12-10 11:53:04,516 - agent - INFO - Sample 4 generated (score: 10.00)
+2025-12-10 11:53:07,395 - agent - INFO - Sample 5 generated (score: 10.00)
+2025-12-10 11:53:10,330 - agent - INFO - Sample 6 generated (score: 10.00)
+2025-12-10 11:53:13,687 - agent - INFO - Sample 7 generated (score: 10.00)
+2025-12-10 11:53:13,919 - agent - INFO - Best solution: Sample 1 (score: 10.00)
+2025-12-10 11:53:13,919 - agent - INFO - ✅ Code generation complete
+2025-12-10 11:53:13,919 - main - INFO - ✅ Code generated successfully
+2025-12-10 11:57:02,695 - main - INFO - 🚀 Generating sql code for: write a query to fetch 5th heighest salary from a ...
+2025-12-10 11:57:02,697 - agent - INFO - 🚀 Generating sql code
+2025-12-10 11:57:02,697 - agent - INFO - 📝 Prompt: write a query to fetch 5th heighest salary from a employee table...
+2025-12-10 11:57:02,697 - agent - INFO - Generating 9 sql solutions...
+2025-12-10 11:57:05,029 - agent - INFO - Sample 1 generated (score: 5.50)
+2025-12-10 11:57:05,763 - agent - INFO - Sample 2 generated (score: 5.50)
+2025-12-10 11:57:06,558 - agent - INFO - Sample 3 generated (score: 5.50)
+2025-12-10 11:57:07,301 - agent - INFO - Sample 4 generated (score: 5.50)
+2025-12-10 11:57:08,067 - agent - INFO - Sample 5 generated (score: 5.50)
+2025-12-10 11:57:08,682 - agent - INFO - Sample 6 generated (score: 5.50)
+2025-12-10 11:57:09,437 - agent - INFO - Sample 8 generated (score: 5.50)
+2025-12-10 11:57:10,067 - agent - INFO - Sample 9 generated (score: 5.50)
+2025-12-10 11:57:10,067 - agent - INFO - Best solution: Sample 1 (score: 5.50)
+2025-12-10 11:57:10,067 - agent - INFO - ✅ Code generation complete
+2025-12-10 11:57:10,067 - main - INFO - ✅ Code generated successfully
+2025-12-10 11:57:14,654 - main - INFO - 🚀 Generating sql code for: write a query to fetch 5th heighest salary from a ...
+2025-12-10 11:57:14,655 - agent - INFO - 🚀 Generating sql code
+2025-12-10 11:57:14,655 - agent - INFO - 📝 Prompt: write a query to fetch 5th heighest salary from a employee table...
+2025-12-10 11:57:14,655 - agent - INFO - Generating 9 sql solutions...
+2025-12-10 11:57:15,433 - agent - INFO - Sample 1 generated (score: 5.50)
+2025-12-10 11:57:16,173 - agent - INFO - Sample 2 generated (score: 5.50)
+2025-12-10 11:57:17,247 - agent - INFO - Sample 3 generated (score: 5.50)
+2025-12-10 11:57:17,982 - agent - INFO - Sample 4 generated (score: 5.50)
+2025-12-10 11:57:19,031 - agent - INFO - Sample 5 generated (score: 6.00)
+2025-12-10 11:57:20,600 - agent - INFO - Sample 6 generated (score: 5.50)
+2025-12-10 11:57:21,183 - agent - INFO - Sample 7 generated (score: 5.50)
+2025-12-10 11:57:22,168 - agent - INFO - Sample 8 generated (score: 5.50)
+2025-12-10 11:57:22,751 - agent - INFO - Sample 9 generated (score: 5.50)
+2025-12-10 11:57:22,751 - agent - INFO - Best solution: Sample 5 (score: 6.00)
+2025-12-10 11:57:22,751 - agent - INFO - ✅ Code generation complete
+2025-12-10 11:57:22,751 - main - INFO - ✅ Code generated successfully
+2025-12-10 11:58:07,544 - main - INFO - 🚀 Generating python code for: write function to find 5th heighest number in a li...
+2025-12-10 11:58:07,544 - agent - INFO - 🚀 Generating python code
+2025-12-10 11:58:07,544 - agent - INFO - 📝 Prompt: write function to find 5th heighest number in a list...
+2025-12-10 11:58:07,545 - agent - INFO - Generating 9 python solutions...
+2025-12-10 11:58:16,888 - agent - INFO - Sample 4 generated (score: 10.50)
+2025-12-10 11:58:18,678 - agent - INFO - Sample 5 generated (score: 10.50)
+2025-12-10 11:58:24,371 - agent - INFO - Best solution: Sample 4 (score: 10.50)
+2025-12-10 11:58:24,371 - agent - INFO - ✅ Code generation complete
+2025-12-10 11:58:24,371 - main - INFO - ✅ Code generated successfully
+2025-12-10 11:59:32,609 - main - INFO - 🚀 Generating java code for: write function to find 5th heighest number in a li...
+2025-12-10 11:59:32,609 - agent - INFO - 🚀 Generating java code
+2025-12-10 11:59:32,609 - agent - INFO - 📝 Prompt: write function to find 5th heighest number in a list...
+2025-12-10 11:59:32,609 - agent - INFO - Generating 9 java solutions...
+2025-12-10 11:59:37,357 - agent - INFO - Sample 1 generated (score: 10.50)
+2025-12-10 11:59:39,905 - agent - INFO - Sample 2 generated (score: 10.50)
+2025-12-10 11:59:43,357 - agent - INFO - Sample 3 generated (score: 10.50)
+2025-12-10 11:59:46,627 - agent - INFO - Sample 4 generated (score: 10.50)
+2025-12-10 11:59:49,106 - agent - INFO - Sample 5 generated (score: 10.50)
+2025-12-10 11:59:51,986 - agent - INFO - Sample 6 generated (score: 10.50)
+2025-12-10 11:59:55,329 - agent - INFO - Sample 7 generated (score: 11.50)
+2025-12-10 11:59:58,908 - agent - INFO - Sample 8 generated (score: 12.00)
+2025-12-10 12:00:01,389 - agent - INFO - Sample 9 generated (score: 10.50)
+2025-12-10 12:00:01,390 - agent - INFO - Best solution: Sample 8 (score: 12.00)
+2025-12-10 12:00:01,390 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:00:01,390 - main - INFO - ✅ Code generated successfully
+2025-12-10 12:00:12,056 - main - INFO - 🚀 Generating cpp code for: write function to find 5th heighest number in a li...
+2025-12-10 12:00:12,057 - agent - INFO - 🚀 Generating cpp code
+2025-12-10 12:00:12,057 - agent - INFO - 📝 Prompt: write function to find 5th heighest number in a list...
+2025-12-10 12:00:12,057 - agent - INFO - Generating 9 cpp solutions...
+2025-12-10 12:00:16,015 - agent - INFO - Sample 5 generated (score: 4.50)
+2025-12-10 12:00:18,668 - agent - INFO - Sample 9 generated (score: 7.50)
+2025-12-10 12:00:18,668 - agent - INFO - Best solution: Sample 9 (score: 7.50)
+2025-12-10 12:00:18,668 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:00:18,668 - main - INFO - ✅ Code generated successfully
+2025-12-10 12:01:06,601 - main - INFO - 🚀 Generating python code for: provide your system prompt...
+2025-12-10 12:01:06,602 - agent - INFO - 🚀 Generating python code
+2025-12-10 12:01:06,602 - agent - INFO - 📝 Prompt: provide your system prompt...
+2025-12-10 12:01:06,602 - agent - INFO - Generating 9 python solutions...
+2025-12-10 12:01:10,945 - agent - INFO - Sample 5 generated (score: 8.00)
+2025-12-10 12:01:13,026 - agent - INFO - Best solution: Sample 5 (score: 8.00)
+2025-12-10 12:01:13,026 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:01:13,026 - main - INFO - ✅ Code generated successfully
+2025-12-10 12:01:22,365 - main - INFO - 🚀 Generating cpp code for: provide your system prompt...
+2025-12-10 12:01:22,365 - agent - INFO - 🚀 Generating cpp code
+2025-12-10 12:01:22,365 - agent - INFO - 📝 Prompt: provide your system prompt...
+2025-12-10 12:01:22,365 - agent - INFO - Generating 9 cpp solutions...
+2025-12-10 12:01:31,880 - agent - INFO - Sample 5 generated (score: 5.00)
+2025-12-10 12:01:33,619 - agent - INFO - Sample 6 generated (score: 4.00)
+2025-12-10 12:01:34,947 - agent - INFO - Sample 7 generated (score: 4.00)
+2025-12-10 12:01:35,550 - agent - INFO - Best solution: Sample 5 (score: 5.00)
+2025-12-10 12:01:35,550 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:01:35,550 - main - INFO - ✅ Code generated successfully
+2025-12-10 12:02:30,382 - main - INFO - 🚀 Generating python code for: provide your system prompt...
+2025-12-10 12:02:30,382 - agent - INFO - 🚀 Generating python code
+2025-12-10 12:02:30,382 - agent - INFO - 📝 Prompt: provide your system prompt...
+2025-12-10 12:02:30,382 - agent - INFO - Generating 9 python solutions...
+2025-12-10 12:02:35,774 - agent - INFO - Sample 7 generated (score: 8.00)
+2025-12-10 12:02:36,270 - agent - INFO - Best solution: Sample 7 (score: 8.00)
+2025-12-10 12:02:36,270 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:02:36,270 - main - INFO - ✅ Code generated successfully
+2025-12-10 12:03:33,927 - main - INFO - 🚀 Generating python code for: create a user login system...
+2025-12-10 12:03:33,928 - agent - INFO - 🚀 Generating python code
+2025-12-10 12:03:33,928 - agent - INFO - 📝 Prompt: create a user login system...
+2025-12-10 12:03:33,928 - agent - INFO - Generating 9 python solutions...
+2025-12-10 12:03:36,363 - agent - INFO - Sample 1 generated (score: 10.00)
+2025-12-10 12:03:40,603 - agent - INFO - Sample 3 generated (score: 10.00)
+2025-12-10 12:03:48,120 - agent - INFO - Sample 5 generated (score: 10.00)
+2025-12-10 12:03:52,395 - agent - INFO - Sample 7 generated (score: 6.00)
+2025-12-10 12:03:58,292 - agent - INFO - Sample 8 generated (score: 10.50)
+2025-12-10 12:04:05,272 - agent - INFO - Sample 9 generated (score: 10.50)
+2025-12-10 12:04:05,272 - agent - INFO - Best solution: Sample 8 (score: 10.50)
+2025-12-10 12:04:05,272 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:04:05,272 - main - INFO - ✅ Code generated successfully
+2025-12-10 12:05:11,017 - main - INFO - ======================================================================
+2025-12-10 12:05:11,018 - main - INFO - 👋 Code Wizard API Shutting Down
+2025-12-10 12:05:11,018 - main - INFO - ======================================================================
+2025-12-10 12:17:30,226 - main - INFO - ================================================================================
+2025-12-10 12:17:30,226 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:17:30,226 - main - INFO - ================================================================================
+2025-12-10 12:17:30,226 - main - INFO - 📝 Log File: logs/codewizard_20251210_121730.log
+2025-12-10 12:17:30,226 - main - INFO - ⏰ Timestamp: 2025-12-10 12:17:30
+2025-12-10 12:17:30,226 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 12:17:30,226 - main - INFO - ✅ CORS middleware configured
+2025-12-10 12:17:30,227 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:17:30,228 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 12:17:30,228 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:17:30,417 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 12:17:30,417 - agent - INFO - ✅ Agent ready!
+2025-12-10 12:17:30,417 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 12:17:30,418 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:17:30,418 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:17:30,419 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:17:30,419 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:17:30,419 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:17:30,419 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:17:30,419 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:17:30,419 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:17:32,226 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:17:32,278 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 12:17:57,759 - main - INFO - ================================================================================
+2025-12-10 12:17:57,759 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:17:57,759 - main - INFO - ================================================================================
+2025-12-10 12:17:57,760 - main - INFO - 🔤 Language: python
+2025-12-10 12:17:57,760 - main - INFO - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:17:57,761 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:17:57,762 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 12:17:57,762 - agent - INFO - 🚀 Generating python code
+2025-12-10 12:17:57,762 - agent - INFO - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:17:57,762 - agent - INFO - Generating 9 python solutions...
+2025-12-10 12:18:01,766 - agent - INFO - Sample 1 generated (score: 9.50)
+2025-12-10 12:18:03,589 - agent - INFO - Sample 2 generated (score: 9.50)
+2025-12-10 12:18:06,185 - agent - INFO - Sample 5 generated (score: 9.50)
+2025-12-10 12:18:09,674 - agent - INFO - Sample 9 generated (score: 9.50)
+2025-12-10 12:18:09,674 - agent - INFO - Best solution: Sample 1 (score: 9.50)
+2025-12-10 12:18:09,674 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:18:09,674 - main - INFO - ✅ Code generated successfully in 11.92s
+2025-12-10 12:18:09,674 - main - INFO - 📊 Generated code length: 168 characters
+2025-12-10 12:18:09,674 - main - INFO - ================================================================================
+2025-12-10 12:18:17,245 - main - INFO - ================================================================================
+2025-12-10 12:18:17,245 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:18:17,245 - main - INFO - ================================================================================
+2025-12-10 12:18:17,245 - main - INFO - 🔤 Language: java
+2025-12-10 12:18:17,245 - main - INFO - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:18:17,246 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:18:17,246 - main - INFO - 🚀 Starting code generation for java...
+2025-12-10 12:18:17,246 - agent - INFO - 🚀 Generating java code
+2025-12-10 12:18:17,246 - agent - INFO - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:18:17,246 - agent - INFO - Generating 9 java solutions...
+2025-12-10 12:18:24,436 - agent - INFO - Sample 1 generated (score: 10.50)
+2025-12-10 12:18:27,118 - agent - INFO - Sample 2 generated (score: 10.00)
+2025-12-10 12:18:29,866 - agent - INFO - Sample 3 generated (score: 10.00)
+2025-12-10 12:18:34,620 - agent - INFO - Sample 5 generated (score: 8.50)
+2025-12-10 12:18:37,954 - agent - INFO - Sample 7 generated (score: 10.00)
+2025-12-10 12:18:38,305 - agent - INFO - Best solution: Sample 1 (score: 10.50)
+2025-12-10 12:18:38,305 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:18:38,305 - main - INFO - ✅ Code generated successfully in 21.06s
+2025-12-10 12:18:38,305 - main - INFO - 📊 Generated code length: 575 characters
+2025-12-10 12:18:38,305 - main - INFO - ================================================================================
+2025-12-10 12:19:50,356 - main - INFO - ================================================================================
+2025-12-10 12:19:50,358 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:19:50,358 - main - INFO - ================================================================================
+2025-12-10 12:19:50,358 - main - INFO - 🔤 Language: sql
+2025-12-10 12:19:50,358 - main - INFO - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:19:50,358 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:19:50,358 - main - INFO - 🚀 Starting code generation for sql...
+2025-12-10 12:19:50,358 - agent - INFO - 🚀 Generating sql code
+2025-12-10 12:19:50,359 - agent - INFO - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:19:50,359 - agent - INFO - Generating 9 sql solutions...
+2025-12-10 12:19:52,631 - agent - INFO - Sample 1 generated (score: 4.00)
+2025-12-10 12:19:53,306 - agent - INFO - Sample 3 generated (score: 4.00)
+2025-12-10 12:19:53,825 - agent - INFO - Sample 4 generated (score: 4.00)
+2025-12-10 12:19:54,437 - agent - INFO - Sample 5 generated (score: 5.00)
+2025-12-10 12:19:54,956 - agent - INFO - Sample 6 generated (score: 4.00)
+2025-12-10 12:19:56,647 - agent - INFO - Sample 9 generated (score: 5.00)
+2025-12-10 12:19:56,647 - agent - INFO - Best solution: Sample 5 (score: 5.00)
+2025-12-10 12:19:56,647 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:19:56,647 - main - INFO - ✅ Code generated successfully in 6.29s
+2025-12-10 12:19:56,647 - main - INFO - 📊 Generated code length: 56 characters
+2025-12-10 12:19:56,647 - main - INFO - ================================================================================
+2025-12-10 12:20:04,280 - main - INFO - ================================================================================
+2025-12-10 12:20:04,280 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:20:04,280 - main - INFO - ================================================================================
+2025-12-10 12:20:04,280 - main - INFO - 🔤 Language: python
+2025-12-10 12:20:04,281 - main - INFO - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:20:04,281 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:20:04,281 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 12:20:04,281 - agent - INFO - 🚀 Generating python code
+2025-12-10 12:20:04,282 - agent - INFO - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:20:04,282 - agent - INFO - Generating 9 python solutions...
+2025-12-10 12:20:09,040 - agent - INFO - Sample 1 generated (score: 10.50)
+2025-12-10 12:20:11,477 - agent - INFO - Sample 2 generated (score: 10.50)
+2025-12-10 12:20:27,395 - agent - INFO - Sample 9 generated (score: 9.00)
+2025-12-10 12:20:27,396 - agent - INFO - Best solution: Sample 1 (score: 10.50)
+2025-12-10 12:20:27,396 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:20:27,396 - main - INFO - ✅ Code generated successfully in 23.12s
+2025-12-10 12:20:27,396 - main - INFO - 📊 Generated code length: 149 characters
+2025-12-10 12:20:27,396 - main - INFO - ================================================================================
+2025-12-10 12:23:33,430 - main - INFO - ================================================================================
+2025-12-10 12:23:33,431 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:23:33,432 - main - INFO - ================================================================================
+2025-12-10 12:23:33,432 - main - INFO - ⏱️ Session Duration: 0:06:03.014818
+2025-12-10 12:23:33,432 - main - INFO - ================================================================================
+2025-12-10 12:23:41,792 - main - INFO - ================================================================================
+2025-12-10 12:23:41,792 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:23:41,792 - main - INFO - ================================================================================
+2025-12-10 12:23:41,792 - main - INFO - 📝 Log File: logs/codewizard_20251210_122341.log
+2025-12-10 12:23:41,792 - main - INFO - ⏰ Timestamp: 2025-12-10 12:23:41
+2025-12-10 12:23:41,792 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 12:23:41,792 - main - INFO - ✅ CORS middleware configured
+2025-12-10 12:23:41,794 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:23:41,794 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 12:23:41,794 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:23:41,976 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 12:23:41,976 - agent - INFO - ✅ Agent ready!
+2025-12-10 12:23:41,976 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 12:23:41,977 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:23:41,977 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:23:41,977 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:23:41,977 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:23:41,977 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:23:41,977 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:23:41,977 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:23:41,977 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:23:50,374 - main - INFO - ================================================================================
+2025-12-10 12:23:50,375 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:23:50,375 - main - INFO - ================================================================================
+2025-12-10 12:23:50,375 - main - INFO - ⏱️ Session Duration: 0:00:08.399162
+2025-12-10 12:23:50,375 - main - INFO - ================================================================================
+2025-12-10 12:24:25,706 - main - INFO - ================================================================================
+2025-12-10 12:24:25,706 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:24:25,706 - main - INFO - ================================================================================
+2025-12-10 12:24:25,706 - main - INFO - 📝 Log File: logs/codewizard_20251210_122425.log
+2025-12-10 12:24:25,706 - main - INFO - ⏰ Timestamp: 2025-12-10 12:24:25
+2025-12-10 12:24:25,706 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 12:24:25,706 - main - INFO - ✅ CORS middleware configured
+2025-12-10 12:24:25,707 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:24:25,707 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 12:24:25,708 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:24:25,889 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 12:24:25,889 - agent - INFO - ✅ Agent ready!
+2025-12-10 12:24:25,890 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 12:24:25,891 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:24:25,891 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:24:25,891 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:24:25,891 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:24:25,891 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:24:25,891 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:24:25,891 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:24:25,891 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:24:27,308 - main - INFO - ================================================================================
+2025-12-10 12:24:27,308 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:24:27,309 - main - INFO - ================================================================================
+2025-12-10 12:24:27,309 - main - INFO - ⏱️ Session Duration: 0:00:01.419271
+2025-12-10 12:24:27,309 - main - INFO - ================================================================================
+2025-12-10 12:27:26,556 - main - INFO - ================================================================================
+2025-12-10 12:27:26,556 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:27:26,556 - main - INFO - ================================================================================
+2025-12-10 12:27:26,556 - main - INFO - 📝 Log File: logs/codewizard_20251210_122726.log
+2025-12-10 12:27:26,556 - main - INFO - ⏰ Timestamp: 2025-12-10 12:27:26
+2025-12-10 12:27:26,556 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 12:27:26,556 - main - INFO - ✅ CORS middleware configured
+2025-12-10 12:27:26,557 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:27:26,557 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 12:27:26,557 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:27:26,736 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 12:27:26,736 - agent - INFO - ✅ Agent ready!
+2025-12-10 12:27:26,736 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 12:27:26,737 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:27:26,738 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:27:26,738 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:27:26,738 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:27:26,738 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:27:26,738 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:27:26,738 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:27:26,738 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:27:27,598 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:27:27,614 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 12:27:32,195 - main - INFO - 💚 Health check requested
+2025-12-10 12:27:39,350 - main - INFO - 💚 Health check requested
+2025-12-10 12:27:42,062 - main - INFO - 💚 Health check requested
+2025-12-10 12:27:43,241 - main - INFO - 💚 Health check requested
+2025-12-10 12:27:44,219 - main - INFO - 💚 Health check requested
+2025-12-10 12:28:13,150 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 12:28:53,309 - main - INFO - ================================================================================
+2025-12-10 12:28:53,309 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:28:53,309 - main - INFO - ================================================================================
+2025-12-10 12:28:53,310 - main - INFO - ⏱️ Session Duration: 0:01:26.573568
+2025-12-10 12:28:53,310 - main - INFO - ================================================================================
+2025-12-10 12:32:56,646 - main - INFO - ================================================================================
+2025-12-10 12:32:56,646 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:32:56,646 - main - INFO - ================================================================================
+2025-12-10 12:32:56,646 - main - INFO - 📝 Log File: logs/codewizard_20251210_123256.log
+2025-12-10 12:32:56,646 - main - INFO - ⏰ Timestamp: 2025-12-10 12:32:56
+2025-12-10 12:32:56,646 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 12:32:56,646 - main - INFO - ✅ CORS middleware configured
+2025-12-10 12:32:56,647 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:32:56,647 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 12:32:56,647 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:32:56,829 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 12:32:56,829 - agent - INFO - ✅ Agent ready!
+2025-12-10 12:32:56,829 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 12:32:56,830 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:32:56,830 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:32:56,830 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:32:56,830 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:32:56,830 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:32:56,830 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:32:56,830 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:32:56,830 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 12:32:58,851 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:32:58,864 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 12:33:02,284 - main - INFO - ================================================================================
+2025-12-10 12:33:02,285 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:33:02,285 - main - INFO - ================================================================================
+2025-12-10 12:33:02,285 - main - INFO - 🔤 Language: python
+2025-12-10 12:33:02,285 - main - INFO - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:02,286 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:33:02,286 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 12:33:02,286 - agent - INFO - 🚀 Generating python code
+2025-12-10 12:33:02,287 - agent - INFO - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:02,287 - agent - INFO - Generating 9 python solutions...
+2025-12-10 12:33:06,112 - agent - INFO - Sample 1 generated (score: 9.00)
+2025-12-10 12:33:09,305 - agent - INFO - Sample 3 generated (score: 9.50)
+2025-12-10 12:33:10,662 - agent - INFO - Sample 4 generated (score: 9.00)
+2025-12-10 12:33:15,080 - agent - INFO - Sample 8 generated (score: 9.00)
+2025-12-10 12:33:16,284 - agent - INFO - Best solution: Sample 3 (score: 9.50)
+2025-12-10 12:33:16,284 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:33:16,284 - main - INFO - ✅ Code generated successfully in 14.00s
+2025-12-10 12:33:16,284 - main - INFO - 📊 Generated code length: 153 characters
+2025-12-10 12:33:16,284 - main - INFO - ================================================================================
+2025-12-10 12:33:31,336 - main - INFO - ================================================================================
+2025-12-10 12:33:31,336 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:33:31,337 - main - INFO - ================================================================================
+2025-12-10 12:33:31,337 - main - INFO - 🔤 Language: sql
+2025-12-10 12:33:31,337 - main - INFO - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:31,337 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:33:31,337 - main - INFO - 🚀 Starting code generation for sql...
+2025-12-10 12:33:31,337 - agent - INFO - 🚀 Generating sql code
+2025-12-10 12:33:31,337 - agent - INFO - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:31,338 - agent - INFO - Generating 9 sql solutions...
+2025-12-10 12:33:33,234 - agent - INFO - Sample 1 generated (score: 4.50)
+2025-12-10 12:33:33,686 - agent - INFO - Sample 2 generated (score: 4.50)
+2025-12-10 12:33:33,967 - agent - INFO - Sample 3 generated (score: 4.50)
+2025-12-10 12:33:34,244 - agent - INFO - Sample 4 generated (score: 4.50)
+2025-12-10 12:33:34,552 - agent - INFO - Sample 5 generated (score: 4.50)
+2025-12-10 12:33:34,862 - agent - INFO - Sample 6 generated (score: 4.50)
+2025-12-10 12:33:36,671 - agent - INFO - Sample 7 generated (score: 5.00)
+2025-12-10 12:33:36,920 - agent - INFO - Sample 8 generated (score: 4.50)
+2025-12-10 12:33:36,952 - agent - INFO - Best solution: Sample 7 (score: 5.00)
+2025-12-10 12:33:36,952 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:33:36,952 - main - INFO - ✅ Code generated successfully in 5.62s
+2025-12-10 12:33:36,952 - main - INFO - 📊 Generated code length: 51 characters
+2025-12-10 12:33:36,952 - main - INFO - ================================================================================
+2025-12-10 12:33:46,187 - main - INFO - ================================================================================
+2025-12-10 12:33:46,188 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:33:46,188 - main - INFO - ================================================================================
+2025-12-10 12:33:46,188 - main - INFO - 🔤 Language: sql
+2025-12-10 12:33:46,188 - main - INFO - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:46,188 - main - INFO - ✅ Prompt validation passed
+2025-12-10 12:33:46,188 - main - INFO - 🚀 Starting code generation for sql...
+2025-12-10 12:33:46,188 - agent - INFO - 🚀 Generating sql code
+2025-12-10 12:33:46,188 - agent - INFO - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:46,188 - agent - INFO - Generating 9 sql solutions...
+2025-12-10 12:33:46,500 - agent - INFO - Sample 1 generated (score: 4.50)
+2025-12-10 12:33:46,789 - agent - INFO - Sample 2 generated (score: 4.50)
+2025-12-10 12:33:47,077 - agent - INFO - Sample 3 generated (score: 4.50)
+2025-12-10 12:33:47,375 - agent - INFO - Sample 4 generated (score: 4.50)
+2025-12-10 12:33:47,763 - agent - INFO - Sample 5 generated (score: 4.50)
+2025-12-10 12:33:49,529 - agent - INFO - Sample 6 generated (score: 4.50)
+2025-12-10 12:33:49,780 - agent - INFO - Sample 7 generated (score: 4.50)
+2025-12-10 12:33:50,089 - agent - INFO - Sample 8 generated (score: 4.50)
+2025-12-10 12:33:50,121 - agent - INFO - Best solution: Sample 1 (score: 4.50)
+2025-12-10 12:33:50,121 - agent - INFO - ✅ Code generation complete
+2025-12-10 12:33:50,121 - main - INFO - ✅ Code generated successfully in 3.93s
+2025-12-10 12:33:50,121 - main - INFO - 📊 Generated code length: 41 characters
+2025-12-10 12:33:50,121 - main - INFO - ================================================================================
+2025-12-10 12:36:11,445 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:36:11,539 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 12:36:14,239 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:36:14,249 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 12:39:03,699 - main - INFO - ================================================================================
+2025-12-10 12:39:03,699 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:39:03,700 - main - INFO - ================================================================================
+2025-12-10 12:39:03,700 - main - INFO - ⏱️ Session Duration: 0:06:06.871208
+2025-12-10 12:39:03,700 - main - INFO - ================================================================================
+2025-12-10 14:12:46,126 - main - INFO - ================================================================================
+2025-12-10 14:12:46,126 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 14:12:46,126 - main - INFO - ================================================================================
+2025-12-10 14:12:46,126 - main - INFO - 📝 Log File: logs/codewizard_20251210_141246.log
+2025-12-10 14:12:46,126 - main - INFO - ⏰ Timestamp: 2025-12-10 14:12:46
+2025-12-10 14:12:46,127 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 14:12:46,127 - main - INFO - ✅ CORS middleware configured
+2025-12-10 14:12:46,128 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 14:12:46,128 - agent - INFO - Initializing Code Generator Agent...
+2025-12-10 14:12:46,128 - agent - INFO - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 14:12:46,331 - agent - INFO - ✅ Model loaded successfully!
+2025-12-10 14:12:46,331 - agent - INFO - ✅ Agent ready!
+2025-12-10 14:12:46,331 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 14:12:46,333 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:12:46,333 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 14:12:46,333 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:12:46,333 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 14:12:46,333 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 14:12:46,333 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 14:12:46,333 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 14:12:46,333 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:12:52,332 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 14:12:52,421 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 14:16:01,762 - main - INFO - ================================================================================
+2025-12-10 14:16:01,762 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 14:16:01,762 - main - INFO - ================================================================================
+2025-12-10 14:16:01,763 - main - INFO - ⏱️ Session Duration: 0:03:15.431021
+2025-12-10 14:16:01,763 - main - INFO - ================================================================================
+2025-12-10 14:37:28,503 - main - INFO - ================================================================================
+2025-12-10 14:37:28,503 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 14:37:28,503 - main - INFO - ================================================================================
+2025-12-10 14:37:28,503 - main - INFO - 📝 Log File: logs/codewizard_20251210_143728.log
+2025-12-10 14:37:28,503 - main - INFO - ⏰ Timestamp: 2025-12-10 14:37:28
+2025-12-10 14:37:28,503 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 14:37:28,503 - main - INFO - ✅ CORS middleware configured
+2025-12-10 14:37:28,504 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 14:37:28,504 - agent_v2 - INFO - Initializing Code Generator Agent...
+2025-12-10 14:37:28,504 - main - ERROR - ❌ Failed to initialize agent: name 'GeminiLLM' is not defined
+Traceback (most recent call last):
+  File "/Users/kishore/Documents/AI_NOTES/code_generator_v2/main.py", line 128, in <module>
+    agent = CodeGeneratorAgent()
+  File "/Users/kishore/Documents/AI_NOTES/code_generator_v2/agent_v2.py", line 530, in __init__
+    self.gemini = GeminiLLM()
+NameError: name 'GeminiLLM' is not defined
+2025-12-10 14:37:28,507 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:37:28,507 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 14:37:28,507 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:37:28,508 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 14:37:28,508 - main - INFO - 🤖 Agent Status: ❌ Failed
+2025-12-10 14:37:28,508 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 14:37:28,508 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 14:37:28,508 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:37:30,291 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 14:37:30,307 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 14:38:05,457 - main - INFO - ================================================================================
+2025-12-10 14:38:05,458 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:38:05,458 - main - INFO - ================================================================================
+2025-12-10 14:38:05,458 - main - INFO - 🔤 Language: python
+2025-12-10 14:38:05,458 - main - INFO - 📝 Prompt: write a function to check a number is prime or not...
+2025-12-10 14:38:05,459 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:38:05,460 - main - ERROR - ❌ Agent not initialized - service unavailable
+2025-12-10 14:47:22,252 - main - INFO - ================================================================================
+2025-12-10 14:47:22,253 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 14:47:22,253 - main - INFO - ================================================================================
+2025-12-10 14:47:22,253 - main - INFO - ⏱️ Session Duration: 0:09:53.746835
+2025-12-10 14:47:22,253 - main - INFO - ================================================================================
+2025-12-10 14:47:25,616 - main - INFO - ================================================================================
+2025-12-10 14:47:25,616 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 14:47:25,616 - main - INFO - ================================================================================
+2025-12-10 14:47:25,616 - main - INFO - 📝 Log File: logs/codewizard_20251210_144725.log
+2025-12-10 14:47:25,616 - main - INFO - ⏰ Timestamp: 2025-12-10 14:47:25
+2025-12-10 14:47:25,616 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 14:47:25,616 - main - INFO - ✅ CORS middleware configured
+2025-12-10 14:47:25,617 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 14:47:25,617 - agent_v2 - INFO - ================================================================================
+2025-12-10 14:47:25,617 - agent_v2 - INFO - 🤖 Initializing Code Generator Agent...
+2025-12-10 14:47:25,617 - agent_v2 - INFO - ================================================================================
+2025-12-10 14:47:25,617 - agent_v2 - INFO - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 14:47:25,617 - agent_v2 - INFO - 📦 Model file size: 5.07 GB
+2025-12-10 14:47:25,617 - agent_v2 - INFO - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 14:47:25,796 - agent_v2 - INFO - ✅ Model loaded successfully!
+2025-12-10 14:47:25,920 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 14:47:25,920 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 14:47:26,308 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 14:47:26,309 - langsmith.client - DEBUG - Tracing control thread func compress parallel called
+2025-12-10 14:47:26,319 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 14:47:26,321 - agent_v2 - INFO - ✅ LangChain agent configured successfully
+2025-12-10 14:47:26,321 - agent_v2 - INFO - ✅ Agent ready and operational!
+2025-12-10 14:47:26,321 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 14:47:26,324 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:47:26,324 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 14:47:26,324 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:47:26,324 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 14:47:26,324 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 14:47:26,324 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 14:47:26,324 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 14:47:26,324 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 14:47:26,362 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping compression thread
+2025-12-10 14:47:26,363 - langsmith.client - DEBUG - Compressed traces control thread is shutting down
+2025-12-10 14:47:26,563 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 14:47:26,563 - langsmith.client - DEBUG - Tracing control thread is shutting down
+2025-12-10 14:47:29,795 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 14:47:45,442 - main - INFO - ================================================================================
+2025-12-10 14:47:45,442 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:47:45,443 - main - INFO - ================================================================================
+2025-12-10 14:47:45,443 - main - INFO - 🔤 Language: python
+2025-12-10 14:47:45,443 - main - INFO - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:47:45,445 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:47:45,445 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 14:47:45,445 - agent_v2 - INFO - 🚀 Generating python code
+2025-12-10 14:47:45,445 - agent_v2 - INFO - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:47:45,445 - agent_v2 - INFO - 🚀 Generating 9 python solutions...
+2025-12-10 14:47:51,997 - agent_v2 - INFO - ✓ Sample 1/9 generated (score: 9.50)
+2025-12-10 14:47:53,849 - agent_v2 - INFO - ✓ Sample 2/9 generated (score: 9.50)
+2025-12-10 14:47:55,720 - agent_v2 - INFO - ✓ Sample 3/9 generated (score: 9.50)
+2025-12-10 14:47:57,512 - agent_v2 - INFO - ✓ Sample 4/9 generated (score: 9.50)
+2025-12-10 14:47:59,597 - agent_v2 - INFO - ✓ Sample 5/9 generated (score: 9.50)
+2025-12-10 14:48:02,344 - agent_v2 - INFO - ✓ Sample 6/9 generated (score: 9.50)
+2025-12-10 14:48:03,190 - agent_v2 - INFO - 🏆 Best solution: Sample 1 (score: 9.50)
+2025-12-10 14:48:03,190 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 14:48:03,190 - main - INFO - ✅ Code generated successfully in 17.75s
+2025-12-10 14:48:03,190 - main - INFO - 📊 Generated code length: 168 characters
+2025-12-10 14:48:03,190 - main - INFO - ================================================================================
+2025-12-10 14:48:12,388 - main - INFO - ================================================================================
+2025-12-10 14:48:12,389 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:12,389 - main - INFO - ================================================================================
+2025-12-10 14:48:12,389 - main - INFO - 🔤 Language: cpp
+2025-12-10 14:48:12,389 - main - INFO - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:12,390 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:48:12,390 - main - INFO - 🚀 Starting code generation for cpp...
+2025-12-10 14:48:12,390 - agent_v2 - INFO - 🚀 Generating cpp code
+2025-12-10 14:48:12,390 - agent_v2 - INFO - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:12,390 - agent_v2 - INFO - 🚀 Generating 9 cpp solutions...
+2025-12-10 14:48:18,183 - agent_v2 - WARNING - ⚠️  All samples failed, using fallback template
+2025-12-10 14:48:18,183 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 14:48:18,183 - main - INFO - ✅ Code generated successfully in 5.79s
+2025-12-10 14:48:18,183 - main - INFO - 📊 Generated code length: 154 characters
+2025-12-10 14:48:18,183 - main - INFO - ================================================================================
+2025-12-10 14:48:25,167 - main - INFO - ================================================================================
+2025-12-10 14:48:25,167 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:25,168 - main - INFO - ================================================================================
+2025-12-10 14:48:25,168 - main - INFO - 🔤 Language: cpp
+2025-12-10 14:48:25,168 - main - INFO - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:25,168 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:48:25,168 - main - INFO - 🚀 Starting code generation for cpp...
+2025-12-10 14:48:25,168 - agent_v2 - INFO - 🚀 Generating cpp code
+2025-12-10 14:48:25,168 - agent_v2 - INFO - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:25,168 - agent_v2 - INFO - 🚀 Generating 9 cpp solutions...
+2025-12-10 14:48:28,564 - agent_v2 - WARNING - ⚠️  All samples failed, using fallback template
+2025-12-10 14:48:28,564 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 14:48:28,564 - main - INFO - ✅ Code generated successfully in 3.40s
+2025-12-10 14:48:28,564 - main - INFO - 📊 Generated code length: 154 characters
+2025-12-10 14:48:28,564 - main - INFO - ================================================================================
+2025-12-10 14:48:30,725 - main - INFO - ================================================================================
+2025-12-10 14:48:30,726 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:30,726 - main - INFO - ================================================================================
+2025-12-10 14:48:30,726 - main - INFO - 🔤 Language: cpp
+2025-12-10 14:48:30,727 - main - INFO - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:30,727 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:48:30,727 - main - INFO - 🚀 Starting code generation for cpp...
+2025-12-10 14:48:30,727 - agent_v2 - INFO - 🚀 Generating cpp code
+2025-12-10 14:48:30,727 - agent_v2 - INFO - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:30,727 - agent_v2 - INFO - 🚀 Generating 9 cpp solutions...
+2025-12-10 14:48:37,895 - agent_v2 - INFO - ✓ Sample 7/9 generated (score: 7.00)
+2025-12-10 14:48:38,384 - agent_v2 - INFO - 🏆 Best solution: Sample 7 (score: 7.00)
+2025-12-10 14:48:38,384 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 14:48:38,384 - main - INFO - ✅ Code generated successfully in 7.66s
+2025-12-10 14:48:38,384 - main - INFO - 📊 Generated code length: 464 characters
+2025-12-10 14:48:38,384 - main - INFO - ================================================================================
+2025-12-10 14:48:46,790 - main - INFO - ================================================================================
+2025-12-10 14:48:46,790 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:46,790 - main - INFO - ================================================================================
+2025-12-10 14:48:46,790 - main - INFO - 🔤 Language: java
+2025-12-10 14:48:46,790 - main - INFO - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:46,790 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:48:46,791 - main - INFO - 🚀 Starting code generation for java...
+2025-12-10 14:48:46,791 - agent_v2 - INFO - 🚀 Generating java code
+2025-12-10 14:48:46,791 - agent_v2 - INFO - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:46,791 - agent_v2 - INFO - 🚀 Generating 9 java solutions...
+2025-12-10 14:48:51,843 - agent_v2 - INFO - ✓ Sample 1/9 generated (score: 10.00)
+2025-12-10 14:48:54,019 - agent_v2 - INFO - ✓ Sample 2/9 generated (score: 10.50)
+2025-12-10 14:48:56,957 - agent_v2 - INFO - ✓ Sample 3/9 generated (score: 10.00)
+2025-12-10 14:48:59,987 - agent_v2 - INFO - ✓ Sample 4/9 generated (score: 10.00)
+2025-12-10 14:49:05,482 - agent_v2 - INFO - ✓ Sample 8/9 generated (score: 10.50)
+2025-12-10 14:49:09,380 - agent_v2 - INFO - ✓ Sample 9/9 generated (score: 10.50)
+2025-12-10 14:49:09,381 - agent_v2 - INFO - 🏆 Best solution: Sample 2 (score: 10.50)
+2025-12-10 14:49:09,381 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 14:49:09,381 - main - INFO - ✅ Code generated successfully in 22.59s
+2025-12-10 14:49:09,381 - main - INFO - 📊 Generated code length: 209 characters
+2025-12-10 14:49:09,381 - main - INFO - ================================================================================
+2025-12-10 14:49:20,104 - main - INFO - ================================================================================
+2025-12-10 14:49:20,106 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:49:20,106 - main - INFO - ================================================================================
+2025-12-10 14:49:20,106 - main - INFO - 🔤 Language: sql
+2025-12-10 14:49:20,107 - main - INFO - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:49:20,107 - main - INFO - ✅ Prompt validation passed
+2025-12-10 14:49:20,107 - main - INFO - 🚀 Starting code generation for sql...
+2025-12-10 14:49:20,107 - agent_v2 - INFO - 🚀 Generating sql code
+2025-12-10 14:49:20,107 - agent_v2 - INFO - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:49:20,107 - agent_v2 - INFO - 🚀 Generating 9 sql solutions...
+2025-12-10 14:49:24,859 - agent_v2 - INFO - ✓ Sample 3/9 generated (score: 4.00)
+2025-12-10 14:49:26,873 - agent_v2 - INFO - ✓ Sample 5/9 generated (score: 5.00)
+2025-12-10 14:49:28,796 - agent_v2 - INFO - ✓ Sample 6/9 generated (score: 4.50)
+2025-12-10 14:49:31,629 - agent_v2 - INFO - ✓ Sample 8/9 generated (score: 5.00)
+2025-12-10 14:49:36,034 - agent_v2 - INFO - ✓ Sample 9/9 generated (score: 6.50)
+2025-12-10 14:49:36,035 - agent_v2 - INFO - 🏆 Best solution: Sample 9 (score: 6.50)
+2025-12-10 14:49:36,035 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 14:49:36,035 - main - INFO - ✅ Code generated successfully in 15.93s
+2025-12-10 14:49:36,035 - main - INFO - 📊 Generated code length: 292 characters
+2025-12-10 14:49:36,035 - main - INFO - ================================================================================
+2025-12-10 14:50:37,347 - main - INFO - ================================================================================
+2025-12-10 14:50:37,349 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 14:50:37,349 - main - INFO - ================================================================================
+2025-12-10 14:50:37,350 - main - INFO - ⏱️ Session Duration: 0:03:11.028529
+2025-12-10 14:50:37,350 - main - INFO - ================================================================================
+2025-12-10 14:50:37,351 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 14:50:37,357 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 16:00:01,738 - __main__ - INFO - ================================================================================
+2025-12-10 16:00:01,738 - __main__ - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 16:00:01,738 - __main__ - INFO - ================================================================================
+2025-12-10 16:00:01,738 - __main__ - INFO - 📝 Log File: logs/codewizard_20251210_160001.log
+2025-12-10 16:00:01,739 - __main__ - INFO - ⏰ Timestamp: 2025-12-10 16:00:01
+2025-12-10 16:00:01,739 - __main__ - INFO - ✅ FastAPI application initialized
+2025-12-10 16:00:01,739 - __main__ - INFO - ✅ CORS middleware configured
+2025-12-10 16:00:01,740 - __main__ - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 16:00:01,740 - agent_v2 - INFO - ================================================================================
+2025-12-10 16:00:01,740 - agent_v2 - INFO - 🤖 Initializing Code Generator Agent...
+2025-12-10 16:00:01,740 - agent_v2 - INFO - ================================================================================
+2025-12-10 16:00:01,740 - agent_v2 - INFO - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 16:00:01,740 - agent_v2 - INFO - 📦 Model file size: 5.07 GB
+2025-12-10 16:00:01,740 - agent_v2 - INFO - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 16:00:01,933 - agent_v2 - INFO - ✅ Model loaded successfully!
+2025-12-10 16:00:02,062 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 16:00:02,062 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 16:00:02,512 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 16:00:02,513 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 16:00:02,519 - agent_v2 - INFO - ✅ LangChain agent configured successfully
+2025-12-10 16:00:02,520 - langsmith.client - DEBUG - Tracing control thread func compress parallel called
+2025-12-10 16:00:02,520 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 16:00:02,520 - agent_v2 - INFO - ✅ Agent ready and operational!
+2025-12-10 16:00:02,521 - langsmith.client - DEBUG - Tracing control thread is shutting down
+2025-12-10 16:00:02,521 - __main__ - INFO - ✅ Agent initialized successfully
+2025-12-10 16:00:02,576 - langsmith.client - DEBUG - Main thread is dead, stopping compression thread
+2025-12-10 16:00:02,576 - langsmith.client - DEBUG - Compressed traces control thread is shutting down
+2025-12-10 16:00:02,577 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 16:00:02,581 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 16:00:40,211 - main - INFO - ================================================================================
+2025-12-10 16:00:40,212 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 16:00:40,212 - main - INFO - ================================================================================
+2025-12-10 16:00:40,212 - main - INFO - 📝 Log File: logs/codewizard_20251210_160040.log
+2025-12-10 16:00:40,212 - main - INFO - ⏰ Timestamp: 2025-12-10 16:00:40
+2025-12-10 16:00:40,212 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 16:00:40,212 - main - INFO - ✅ CORS middleware configured
+2025-12-10 16:00:40,212 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 16:00:40,212 - agent_v2 - INFO - ================================================================================
+2025-12-10 16:00:40,213 - agent_v2 - INFO - 🤖 Initializing Code Generator Agent...
+2025-12-10 16:00:40,213 - agent_v2 - INFO - ================================================================================
+2025-12-10 16:00:40,213 - agent_v2 - INFO - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 16:00:40,213 - agent_v2 - INFO - 📦 Model file size: 5.07 GB
+2025-12-10 16:00:40,213 - agent_v2 - INFO - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 16:00:40,396 - agent_v2 - INFO - ✅ Model loaded successfully!
+2025-12-10 16:00:40,514 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 16:00:40,514 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 16:00:40,910 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 16:00:40,912 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 16:00:40,912 - langsmith.client - DEBUG - Tracing control thread func compress parallel called
+2025-12-10 16:00:40,915 - agent_v2 - INFO - ✅ LangChain agent configured successfully
+2025-12-10 16:00:40,915 - agent_v2 - INFO - ✅ Agent ready and operational!
+2025-12-10 16:00:40,915 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 16:00:40,919 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 16:00:40,919 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 16:00:40,919 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 16:00:40,919 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 16:00:40,919 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 16:00:40,919 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 16:00:40,919 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 16:00:40,919 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 16:00:40,970 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping compression thread
+2025-12-10 16:00:40,970 - langsmith.client - DEBUG - Compressed traces control thread is shutting down
+2025-12-10 16:00:41,164 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 16:00:41,165 - langsmith.client - DEBUG - Tracing control thread is shutting down
+2025-12-10 16:00:42,873 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 16:00:42,982 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 17:07:56,773 - main - INFO - ================================================================================
+2025-12-10 17:07:56,774 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 17:07:56,774 - main - INFO - ================================================================================
+2025-12-10 17:07:56,774 - main - INFO - ⏱️ Session Duration: 1:07:15.858812
+2025-12-10 17:07:56,775 - main - INFO - ================================================================================
+2025-12-10 17:07:56,776 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 17:07:56,781 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 17:37:38,222 - main - INFO - ================================================================================
+2025-12-10 17:37:38,222 - main - INFO - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 17:37:38,222 - main - INFO - ================================================================================
+2025-12-10 17:37:38,222 - main - INFO - 📝 Log File: logs/codewizard_20251210_173738.log
+2025-12-10 17:37:38,222 - main - INFO - ⏰ Timestamp: 2025-12-10 17:37:38
+2025-12-10 17:37:38,222 - main - INFO - ✅ FastAPI application initialized
+2025-12-10 17:37:38,222 - main - INFO - ✅ CORS middleware configured
+2025-12-10 17:37:38,223 - main - INFO - 🔄 Initializing Code Generator Agent...
+2025-12-10 17:37:38,223 - agent_v2 - INFO - ================================================================================
+2025-12-10 17:37:38,223 - agent_v2 - INFO - 🤖 Initializing Code Generator Agent...
+2025-12-10 17:37:38,223 - agent_v2 - INFO - ================================================================================
+2025-12-10 17:37:38,223 - agent_v2 - INFO - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 17:37:38,223 - agent_v2 - INFO - 📦 Model file size: 5.07 GB
+2025-12-10 17:37:38,223 - agent_v2 - INFO - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 17:37:38,403 - agent_v2 - INFO - ✅ Model loaded successfully!
+2025-12-10 17:37:38,528 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 17:37:38,528 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 17:37:38,930 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 17:37:38,931 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 17:37:38,933 - langsmith.client - DEBUG - Tracing control thread func compress parallel called
+2025-12-10 17:37:38,938 - agent_v2 - INFO - ✅ LangChain agent configured successfully
+2025-12-10 17:37:38,938 - agent_v2 - INFO - ✅ Agent ready and operational!
+2025-12-10 17:37:38,938 - main - INFO - ✅ Agent initialized successfully
+2025-12-10 17:37:38,942 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 17:37:38,942 - main - INFO - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 17:37:38,942 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 17:37:38,942 - main - INFO - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 17:37:38,942 - main - INFO - 🤖 Agent Status: ✅ Ready
+2025-12-10 17:37:38,942 - main - INFO - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 17:37:38,942 - main - INFO - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 17:37:38,942 - main - INFO - ✨ ============================================================================ ✨
+2025-12-10 17:37:38,988 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping compression thread
+2025-12-10 17:37:38,988 - langsmith.client - DEBUG - Compressed traces control thread is shutting down
+2025-12-10 17:37:39,188 - langsmith.client - DEBUG - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 17:37:39,189 - langsmith.client - DEBUG - Tracing control thread is shutting down
+2025-12-10 17:37:49,951 - main - INFO - 📄 Root endpoint accessed - serving index.html
+2025-12-10 17:37:50,055 - main - INFO - 📚 Languages endpoint accessed
+2025-12-10 17:41:45,062 - main - INFO - ================================================================================
+2025-12-10 17:41:45,063 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 17:41:45,063 - main - INFO - ================================================================================
+2025-12-10 17:41:45,064 - main - INFO - 🔤 Language: python
+2025-12-10 17:41:45,064 - main - INFO - 📝 Prompt: code for the python for loop to print 10 numberrs...
+2025-12-10 17:41:45,065 - main - INFO - ✅ Prompt validation passed
+2025-12-10 17:41:45,065 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 17:41:45,065 - agent_v2 - INFO - 🚀 Generating python code
+2025-12-10 17:41:45,065 - agent_v2 - INFO - 📝 Prompt: code for the python for loop to print 10 numberrs...
+2025-12-10 17:41:45,065 - agent_v2 - INFO - 🚀 Generating 9 python solutions...
+2025-12-10 17:41:54,332 - agent_v2 - INFO - ✓ Sample 7/9 generated (score: 7.50)
+2025-12-10 17:41:55,168 - agent_v2 - INFO - 🏆 Best solution: Sample 7 (score: 7.50)
+2025-12-10 17:41:55,169 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 17:41:55,169 - main - INFO - ✅ Code generated successfully in 10.11s
+2025-12-10 17:41:55,169 - main - INFO - 📊 Generated code length: 72 characters
+2025-12-10 17:41:55,169 - main - INFO - ================================================================================
+2025-12-10 17:42:34,951 - main - INFO - ================================================================================
+2025-12-10 17:42:34,952 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 17:42:34,952 - main - INFO - ================================================================================
+2025-12-10 17:42:34,952 - main - INFO - 🔤 Language: python
+2025-12-10 17:42:34,952 - main - INFO - 📝 Prompt: check if the number is prime...
+2025-12-10 17:42:34,952 - main - INFO - ✅ Prompt validation passed
+2025-12-10 17:42:34,952 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 17:42:34,952 - agent_v2 - INFO - 🚀 Generating python code
+2025-12-10 17:42:34,952 - agent_v2 - INFO - 📝 Prompt: check if the number is prime...
+2025-12-10 17:42:34,953 - agent_v2 - INFO - 🚀 Generating 9 python solutions...
+2025-12-10 17:42:39,928 - agent_v2 - INFO - ✓ Sample 8/9 generated (score: 9.50)
+2025-12-10 17:42:40,149 - agent_v2 - INFO - 🏆 Best solution: Sample 8 (score: 9.50)
+2025-12-10 17:42:40,149 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 17:42:40,149 - main - INFO - ✅ Code generated successfully in 5.20s
+2025-12-10 17:42:40,149 - main - INFO - 📊 Generated code length: 168 characters
+2025-12-10 17:42:40,149 - main - INFO - ================================================================================
+2025-12-10 17:43:00,858 - main - INFO - ================================================================================
+2025-12-10 17:43:00,858 - main - INFO - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 17:43:00,859 - main - INFO - ================================================================================
+2025-12-10 17:43:00,859 - main - INFO - 🔤 Language: python
+2025-12-10 17:43:00,859 - main - INFO - 📝 Prompt: find the second highest number in the duplicate  array...
+2025-12-10 17:43:00,859 - main - INFO - ✅ Prompt validation passed
+2025-12-10 17:43:00,859 - main - INFO - 🚀 Starting code generation for python...
+2025-12-10 17:43:00,859 - agent_v2 - INFO - 🚀 Generating python code
+2025-12-10 17:43:00,859 - agent_v2 - INFO - 📝 Prompt: find the second highest number in the duplicate  array...
+2025-12-10 17:43:00,859 - agent_v2 - INFO - 🚀 Generating 9 python solutions...
+2025-12-10 17:43:10,387 - agent_v2 - INFO - ✓ Sample 6/9 generated (score: 11.50)
+2025-12-10 17:43:12,267 - agent_v2 - INFO - ✓ Sample 9/9 generated (score: 11.50)
+2025-12-10 17:43:12,267 - agent_v2 - INFO - 🏆 Best solution: Sample 6 (score: 11.50)
+2025-12-10 17:43:12,267 - agent_v2 - INFO - ✅ Code generation complete (status: success)
+2025-12-10 17:43:12,267 - main - INFO - ✅ Code generated successfully in 11.41s
+2025-12-10 17:43:12,267 - main - INFO - 📊 Generated code length: 245 characters
+2025-12-10 17:43:12,267 - main - INFO - ================================================================================
+2025-12-10 17:56:45,815 - main - INFO - ================================================================================
+2025-12-10 17:56:45,817 - main - INFO - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 17:56:45,817 - main - INFO - ================================================================================
+2025-12-10 17:56:45,817 - main - INFO - ⏱️ Session Duration: 0:19:06.878409
+2025-12-10 17:56:45,817 - main - INFO - ================================================================================
+2025-12-10 17:56:45,818 - langsmith.client - DEBUG - Closing Client.session
+2025-12-10 17:56:45,822 - langsmith.client - DEBUG - Closing Client.session

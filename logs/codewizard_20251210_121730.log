@@ -1,0 +1,106 @@
+2025-12-10 12:17:30 - [INFO] - main - ================================================================================
+2025-12-10 12:17:30 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:17:30 - [INFO] - main - ================================================================================
+2025-12-10 12:17:30 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_121730.log
+2025-12-10 12:17:30 - [INFO] - main - ⏰ Timestamp: 2025-12-10 12:17:30
+2025-12-10 12:17:30 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 12:17:30 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 12:17:30 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:17:30 - [INFO] - agent - Initializing Code Generator Agent...
+2025-12-10 12:17:30 - [INFO] - agent - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:17:30 - [INFO] - agent - ✅ Model loaded successfully!
+2025-12-10 12:17:30 - [INFO] - agent - ✅ Agent ready!
+2025-12-10 12:17:30 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 12:17:30 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:17:30 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:17:30 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:17:30 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:17:30 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:17:30 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:17:30 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:17:30 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:17:32 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:17:32 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 12:17:57 - [INFO] - main - ================================================================================
+2025-12-10 12:17:57 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:17:57 - [INFO] - main - ================================================================================
+2025-12-10 12:17:57 - [INFO] - main - 🔤 Language: python
+2025-12-10 12:17:57 - [INFO] - main - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:17:57 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:17:57 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 12:17:57 - [INFO] - agent - 🚀 Generating python code
+2025-12-10 12:17:57 - [INFO] - agent - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:17:57 - [INFO] - agent - Generating 9 python solutions...
+2025-12-10 12:18:01 - [INFO] - agent - Sample 1 generated (score: 9.50)
+2025-12-10 12:18:03 - [INFO] - agent - Sample 2 generated (score: 9.50)
+2025-12-10 12:18:06 - [INFO] - agent - Sample 5 generated (score: 9.50)
+2025-12-10 12:18:09 - [INFO] - agent - Sample 9 generated (score: 9.50)
+2025-12-10 12:18:09 - [INFO] - agent - Best solution: Sample 1 (score: 9.50)
+2025-12-10 12:18:09 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:18:09 - [INFO] - main - ✅ Code generated successfully in 11.92s
+2025-12-10 12:18:09 - [INFO] - main - 📊 Generated code length: 168 characters
+2025-12-10 12:18:09 - [INFO] - main - ================================================================================
+2025-12-10 12:18:17 - [INFO] - main - ================================================================================
+2025-12-10 12:18:17 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:18:17 - [INFO] - main - ================================================================================
+2025-12-10 12:18:17 - [INFO] - main - 🔤 Language: java
+2025-12-10 12:18:17 - [INFO] - main - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:18:17 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:18:17 - [INFO] - main - 🚀 Starting code generation for java...
+2025-12-10 12:18:17 - [INFO] - agent - 🚀 Generating java code
+2025-12-10 12:18:17 - [INFO] - agent - 📝 Prompt: write a code to check weather a number is prime or not...
+2025-12-10 12:18:17 - [INFO] - agent - Generating 9 java solutions...
+2025-12-10 12:18:24 - [INFO] - agent - Sample 1 generated (score: 10.50)
+2025-12-10 12:18:27 - [INFO] - agent - Sample 2 generated (score: 10.00)
+2025-12-10 12:18:29 - [INFO] - agent - Sample 3 generated (score: 10.00)
+2025-12-10 12:18:34 - [INFO] - agent - Sample 5 generated (score: 8.50)
+2025-12-10 12:18:37 - [INFO] - agent - Sample 7 generated (score: 10.00)
+2025-12-10 12:18:38 - [INFO] - agent - Best solution: Sample 1 (score: 10.50)
+2025-12-10 12:18:38 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:18:38 - [INFO] - main - ✅ Code generated successfully in 21.06s
+2025-12-10 12:18:38 - [INFO] - main - 📊 Generated code length: 575 characters
+2025-12-10 12:18:38 - [INFO] - main - ================================================================================
+2025-12-10 12:19:50 - [INFO] - main - ================================================================================
+2025-12-10 12:19:50 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:19:50 - [INFO] - main - ================================================================================
+2025-12-10 12:19:50 - [INFO] - main - 🔤 Language: sql
+2025-12-10 12:19:50 - [INFO] - main - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:19:50 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:19:50 - [INFO] - main - 🚀 Starting code generation for sql...
+2025-12-10 12:19:50 - [INFO] - agent - 🚀 Generating sql code
+2025-12-10 12:19:50 - [INFO] - agent - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:19:50 - [INFO] - agent - Generating 9 sql solutions...
+2025-12-10 12:19:52 - [INFO] - agent - Sample 1 generated (score: 4.00)
+2025-12-10 12:19:53 - [INFO] - agent - Sample 3 generated (score: 4.00)
+2025-12-10 12:19:53 - [INFO] - agent - Sample 4 generated (score: 4.00)
+2025-12-10 12:19:54 - [INFO] - agent - Sample 5 generated (score: 5.00)
+2025-12-10 12:19:54 - [INFO] - agent - Sample 6 generated (score: 4.00)
+2025-12-10 12:19:56 - [INFO] - agent - Sample 9 generated (score: 5.00)
+2025-12-10 12:19:56 - [INFO] - agent - Best solution: Sample 5 (score: 5.00)
+2025-12-10 12:19:56 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:19:56 - [INFO] - main - ✅ Code generated successfully in 6.29s
+2025-12-10 12:19:56 - [INFO] - main - 📊 Generated code length: 56 characters
+2025-12-10 12:19:56 - [INFO] - main - ================================================================================
+2025-12-10 12:20:04 - [INFO] - main - ================================================================================
+2025-12-10 12:20:04 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:20:04 - [INFO] - main - ================================================================================
+2025-12-10 12:20:04 - [INFO] - main - 🔤 Language: python
+2025-12-10 12:20:04 - [INFO] - main - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:20:04 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:20:04 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 12:20:04 - [INFO] - agent - 🚀 Generating python code
+2025-12-10 12:20:04 - [INFO] - agent - 📝 Prompt: Write a query to find employees whose salary is greater than 50,000....
+2025-12-10 12:20:04 - [INFO] - agent - Generating 9 python solutions...
+2025-12-10 12:20:09 - [INFO] - agent - Sample 1 generated (score: 10.50)
+2025-12-10 12:20:11 - [INFO] - agent - Sample 2 generated (score: 10.50)
+2025-12-10 12:20:27 - [INFO] - agent - Sample 9 generated (score: 9.00)
+2025-12-10 12:20:27 - [INFO] - agent - Best solution: Sample 1 (score: 10.50)
+2025-12-10 12:20:27 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:20:27 - [INFO] - main - ✅ Code generated successfully in 23.12s
+2025-12-10 12:20:27 - [INFO] - main - 📊 Generated code length: 149 characters
+2025-12-10 12:20:27 - [INFO] - main - ================================================================================
+2025-12-10 12:23:33 - [INFO] - main - ================================================================================
+2025-12-10 12:23:33 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:23:33 - [INFO] - main - ================================================================================
+2025-12-10 12:23:33 - [INFO] - main - ⏱️ Session Duration: 0:06:03.014818
+2025-12-10 12:23:33 - [INFO] - main - ================================================================================

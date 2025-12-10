@@ -1,0 +1,28 @@
+2025-12-10 14:12:46 - [INFO] - main - ================================================================================
+2025-12-10 14:12:46 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 14:12:46 - [INFO] - main - ================================================================================
+2025-12-10 14:12:46 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_141246.log
+2025-12-10 14:12:46 - [INFO] - main - ⏰ Timestamp: 2025-12-10 14:12:46
+2025-12-10 14:12:46 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 14:12:46 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 14:12:46 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 14:12:46 - [INFO] - agent - Initializing Code Generator Agent...
+2025-12-10 14:12:46 - [INFO] - agent - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 14:12:46 - [INFO] - agent - ✅ Model loaded successfully!
+2025-12-10 14:12:46 - [INFO] - agent - ✅ Agent ready!
+2025-12-10 14:12:46 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 14:12:46 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:12:46 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 14:12:46 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:12:46 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 14:12:46 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 14:12:46 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 14:12:46 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 14:12:46 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:12:52 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 14:12:52 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 14:16:01 - [INFO] - main - ================================================================================
+2025-12-10 14:16:01 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 14:16:01 - [INFO] - main - ================================================================================
+2025-12-10 14:16:01 - [INFO] - main - ⏱️ Session Duration: 0:03:15.431021
+2025-12-10 14:16:01 - [INFO] - main - ================================================================================

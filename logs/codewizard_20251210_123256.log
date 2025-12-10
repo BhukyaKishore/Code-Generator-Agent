@@ -1,0 +1,97 @@
+2025-12-10 12:32:56 - [INFO] - main - ================================================================================
+2025-12-10 12:32:56 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:32:56 - [INFO] - main - ================================================================================
+2025-12-10 12:32:56 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_123256.log
+2025-12-10 12:32:56 - [INFO] - main - ⏰ Timestamp: 2025-12-10 12:32:56
+2025-12-10 12:32:56 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 12:32:56 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 12:32:56 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:32:56 - [INFO] - agent - Initializing Code Generator Agent...
+2025-12-10 12:32:56 - [INFO] - agent - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:32:56 - [INFO] - agent - ✅ Model loaded successfully!
+2025-12-10 12:32:56 - [INFO] - agent - ✅ Agent ready!
+2025-12-10 12:32:56 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 12:32:56 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:32:56 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:32:56 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:32:56 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:32:56 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:32:56 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:32:56 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:32:56 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:32:58 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:32:58 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 12:33:02 - [INFO] - main - ================================================================================
+2025-12-10 12:33:02 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:33:02 - [INFO] - main - ================================================================================
+2025-12-10 12:33:02 - [INFO] - main - 🔤 Language: python
+2025-12-10 12:33:02 - [INFO] - main - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:02 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:33:02 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 12:33:02 - [INFO] - agent - 🚀 Generating python code
+2025-12-10 12:33:02 - [INFO] - agent - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:02 - [INFO] - agent - Generating 9 python solutions...
+2025-12-10 12:33:06 - [INFO] - agent - Sample 1 generated (score: 9.00)
+2025-12-10 12:33:09 - [INFO] - agent - Sample 3 generated (score: 9.50)
+2025-12-10 12:33:10 - [INFO] - agent - Sample 4 generated (score: 9.00)
+2025-12-10 12:33:15 - [INFO] - agent - Sample 8 generated (score: 9.00)
+2025-12-10 12:33:16 - [INFO] - agent - Best solution: Sample 3 (score: 9.50)
+2025-12-10 12:33:16 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:33:16 - [INFO] - main - ✅ Code generated successfully in 14.00s
+2025-12-10 12:33:16 - [INFO] - main - 📊 Generated code length: 153 characters
+2025-12-10 12:33:16 - [INFO] - main - ================================================================================
+2025-12-10 12:33:31 - [INFO] - main - ================================================================================
+2025-12-10 12:33:31 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:33:31 - [INFO] - main - ================================================================================
+2025-12-10 12:33:31 - [INFO] - main - 🔤 Language: sql
+2025-12-10 12:33:31 - [INFO] - main - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:31 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:33:31 - [INFO] - main - 🚀 Starting code generation for sql...
+2025-12-10 12:33:31 - [INFO] - agent - 🚀 Generating sql code
+2025-12-10 12:33:31 - [INFO] - agent - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:31 - [INFO] - agent - Generating 9 sql solutions...
+2025-12-10 12:33:33 - [INFO] - agent - Sample 1 generated (score: 4.50)
+2025-12-10 12:33:33 - [INFO] - agent - Sample 2 generated (score: 4.50)
+2025-12-10 12:33:33 - [INFO] - agent - Sample 3 generated (score: 4.50)
+2025-12-10 12:33:34 - [INFO] - agent - Sample 4 generated (score: 4.50)
+2025-12-10 12:33:34 - [INFO] - agent - Sample 5 generated (score: 4.50)
+2025-12-10 12:33:34 - [INFO] - agent - Sample 6 generated (score: 4.50)
+2025-12-10 12:33:36 - [INFO] - agent - Sample 7 generated (score: 5.00)
+2025-12-10 12:33:36 - [INFO] - agent - Sample 8 generated (score: 4.50)
+2025-12-10 12:33:36 - [INFO] - agent - Best solution: Sample 7 (score: 5.00)
+2025-12-10 12:33:36 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:33:36 - [INFO] - main - ✅ Code generated successfully in 5.62s
+2025-12-10 12:33:36 - [INFO] - main - 📊 Generated code length: 51 characters
+2025-12-10 12:33:36 - [INFO] - main - ================================================================================
+2025-12-10 12:33:46 - [INFO] - main - ================================================================================
+2025-12-10 12:33:46 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 12:33:46 - [INFO] - main - ================================================================================
+2025-12-10 12:33:46 - [INFO] - main - 🔤 Language: sql
+2025-12-10 12:33:46 - [INFO] - main - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:46 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 12:33:46 - [INFO] - main - 🚀 Starting code generation for sql...
+2025-12-10 12:33:46 - [INFO] - agent - 🚀 Generating sql code
+2025-12-10 12:33:46 - [INFO] - agent - 📝 Prompt: Return only distinct job titles from the Employees table....
+2025-12-10 12:33:46 - [INFO] - agent - Generating 9 sql solutions...
+2025-12-10 12:33:46 - [INFO] - agent - Sample 1 generated (score: 4.50)
+2025-12-10 12:33:46 - [INFO] - agent - Sample 2 generated (score: 4.50)
+2025-12-10 12:33:47 - [INFO] - agent - Sample 3 generated (score: 4.50)
+2025-12-10 12:33:47 - [INFO] - agent - Sample 4 generated (score: 4.50)
+2025-12-10 12:33:47 - [INFO] - agent - Sample 5 generated (score: 4.50)
+2025-12-10 12:33:49 - [INFO] - agent - Sample 6 generated (score: 4.50)
+2025-12-10 12:33:49 - [INFO] - agent - Sample 7 generated (score: 4.50)
+2025-12-10 12:33:50 - [INFO] - agent - Sample 8 generated (score: 4.50)
+2025-12-10 12:33:50 - [INFO] - agent - Best solution: Sample 1 (score: 4.50)
+2025-12-10 12:33:50 - [INFO] - agent - ✅ Code generation complete
+2025-12-10 12:33:50 - [INFO] - main - ✅ Code generated successfully in 3.93s
+2025-12-10 12:33:50 - [INFO] - main - 📊 Generated code length: 41 characters
+2025-12-10 12:33:50 - [INFO] - main - ================================================================================
+2025-12-10 12:36:11 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:36:11 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 12:36:14 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:36:14 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 12:39:03 - [INFO] - main - ================================================================================
+2025-12-10 12:39:03 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:39:03 - [INFO] - main - ================================================================================
+2025-12-10 12:39:03 - [INFO] - main - ⏱️ Session Duration: 0:06:06.871208
+2025-12-10 12:39:03 - [INFO] - main - ================================================================================

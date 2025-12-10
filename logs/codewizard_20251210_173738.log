@@ -1,0 +1,93 @@
+2025-12-10 17:37:38 - [INFO] - main - ================================================================================
+2025-12-10 17:37:38 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 17:37:38 - [INFO] - main - ================================================================================
+2025-12-10 17:37:38 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_173738.log
+2025-12-10 17:37:38 - [INFO] - main - ⏰ Timestamp: 2025-12-10 17:37:38
+2025-12-10 17:37:38 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 17:37:38 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 17:37:38 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 17:37:38 - [INFO] - agent_v2 - ================================================================================
+2025-12-10 17:37:38 - [INFO] - agent_v2 - 🤖 Initializing Code Generator Agent...
+2025-12-10 17:37:38 - [INFO] - agent_v2 - ================================================================================
+2025-12-10 17:37:38 - [INFO] - agent_v2 - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 17:37:38 - [INFO] - agent_v2 - 📦 Model file size: 5.07 GB
+2025-12-10 17:37:38 - [INFO] - agent_v2 - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 17:37:38 - [INFO] - agent_v2 - ✅ Model loaded successfully!
+2025-12-10 17:37:38 - [DEBUG] - urllib3.connectionpool - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 17:37:38 - [DEBUG] - urllib3.connectionpool - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 17:37:38 - [DEBUG] - urllib3.connectionpool - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 17:37:38 - [DEBUG] - urllib3.connectionpool - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 17:37:38 - [DEBUG] - langsmith.client - Tracing control thread func compress parallel called
+2025-12-10 17:37:38 - [INFO] - agent_v2 - ✅ LangChain agent configured successfully
+2025-12-10 17:37:38 - [INFO] - agent_v2 - ✅ Agent ready and operational!
+2025-12-10 17:37:38 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 17:37:38 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 17:37:38 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 17:37:38 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 17:37:38 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 17:37:38 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 17:37:38 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 17:37:38 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 17:37:38 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 17:37:38 - [DEBUG] - langsmith.client - Client refs count indicates we're the only remaining reference to the client, stopping compression thread
+2025-12-10 17:37:38 - [DEBUG] - langsmith.client - Compressed traces control thread is shutting down
+2025-12-10 17:37:39 - [DEBUG] - langsmith.client - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 17:37:39 - [DEBUG] - langsmith.client - Tracing control thread is shutting down
+2025-12-10 17:37:49 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 17:37:50 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 17:41:45 - [INFO] - main - ================================================================================
+2025-12-10 17:41:45 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 17:41:45 - [INFO] - main - ================================================================================
+2025-12-10 17:41:45 - [INFO] - main - 🔤 Language: python
+2025-12-10 17:41:45 - [INFO] - main - 📝 Prompt: code for the python for loop to print 10 numberrs...
+2025-12-10 17:41:45 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 17:41:45 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 17:41:45 - [INFO] - agent_v2 - 🚀 Generating python code
+2025-12-10 17:41:45 - [INFO] - agent_v2 - 📝 Prompt: code for the python for loop to print 10 numberrs...
+2025-12-10 17:41:45 - [INFO] - agent_v2 - 🚀 Generating 9 python solutions...
+2025-12-10 17:41:54 - [INFO] - agent_v2 - ✓ Sample 7/9 generated (score: 7.50)
+2025-12-10 17:41:55 - [INFO] - agent_v2 - 🏆 Best solution: Sample 7 (score: 7.50)
+2025-12-10 17:41:55 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 17:41:55 - [INFO] - main - ✅ Code generated successfully in 10.11s
+2025-12-10 17:41:55 - [INFO] - main - 📊 Generated code length: 72 characters
+2025-12-10 17:41:55 - [INFO] - main - ================================================================================
+2025-12-10 17:42:34 - [INFO] - main - ================================================================================
+2025-12-10 17:42:34 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 17:42:34 - [INFO] - main - ================================================================================
+2025-12-10 17:42:34 - [INFO] - main - 🔤 Language: python
+2025-12-10 17:42:34 - [INFO] - main - 📝 Prompt: check if the number is prime...
+2025-12-10 17:42:34 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 17:42:34 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 17:42:34 - [INFO] - agent_v2 - 🚀 Generating python code
+2025-12-10 17:42:34 - [INFO] - agent_v2 - 📝 Prompt: check if the number is prime...
+2025-12-10 17:42:34 - [INFO] - agent_v2 - 🚀 Generating 9 python solutions...
+2025-12-10 17:42:39 - [INFO] - agent_v2 - ✓ Sample 8/9 generated (score: 9.50)
+2025-12-10 17:42:40 - [INFO] - agent_v2 - 🏆 Best solution: Sample 8 (score: 9.50)
+2025-12-10 17:42:40 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 17:42:40 - [INFO] - main - ✅ Code generated successfully in 5.20s
+2025-12-10 17:42:40 - [INFO] - main - 📊 Generated code length: 168 characters
+2025-12-10 17:42:40 - [INFO] - main - ================================================================================
+2025-12-10 17:43:00 - [INFO] - main - ================================================================================
+2025-12-10 17:43:00 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 17:43:00 - [INFO] - main - ================================================================================
+2025-12-10 17:43:00 - [INFO] - main - 🔤 Language: python
+2025-12-10 17:43:00 - [INFO] - main - 📝 Prompt: find the second highest number in the duplicate  array...
+2025-12-10 17:43:00 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 17:43:00 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 17:43:00 - [INFO] - agent_v2 - 🚀 Generating python code
+2025-12-10 17:43:00 - [INFO] - agent_v2 - 📝 Prompt: find the second highest number in the duplicate  array...
+2025-12-10 17:43:00 - [INFO] - agent_v2 - 🚀 Generating 9 python solutions...
+2025-12-10 17:43:10 - [INFO] - agent_v2 - ✓ Sample 6/9 generated (score: 11.50)
+2025-12-10 17:43:12 - [INFO] - agent_v2 - ✓ Sample 9/9 generated (score: 11.50)
+2025-12-10 17:43:12 - [INFO] - agent_v2 - 🏆 Best solution: Sample 6 (score: 11.50)
+2025-12-10 17:43:12 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 17:43:12 - [INFO] - main - ✅ Code generated successfully in 11.41s
+2025-12-10 17:43:12 - [INFO] - main - 📊 Generated code length: 245 characters
+2025-12-10 17:43:12 - [INFO] - main - ================================================================================
+2025-12-10 17:56:45 - [INFO] - main - ================================================================================
+2025-12-10 17:56:45 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 17:56:45 - [INFO] - main - ================================================================================
+2025-12-10 17:56:45 - [INFO] - main - ⏱️ Session Duration: 0:19:06.878409
+2025-12-10 17:56:45 - [INFO] - main - ================================================================================
+2025-12-10 17:56:45 - [DEBUG] - langsmith.client - Closing Client.session
+2025-12-10 17:56:45 - [DEBUG] - langsmith.client - Closing Client.session

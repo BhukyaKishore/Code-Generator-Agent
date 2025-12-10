@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Wizard - AI Code Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8b5cf6;
+            --secondary: #ec4899;
+            --accent: #06b6d4;
+            --dark: #0f172a;
+            --darker: #020617;
+            --light: #f8fafc;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--darker) 0%, #1a1a3e 50%, var(--dark) 100%);
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        /* Animated Background */
+        .background {
+            position: fixed;
+            inset: 0;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(40px);
+            opacity: 0.3;
+            mix-blend-mode: multiply;
+        }
+
+        .blob-1 {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            top: -50px;
+            left: -50px;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .blob-2 {
+            width: 250px;
+            height: 250px;
+            background: linear-gradient(135deg, var(--accent), var(--primary));
+            bottom: -50px;
+            right: -50px;
+            animation: float 10s ease-in-out infinite reverse;
+        }
+
+        .blob-3 {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, var(--secondary), var(--accent));
+            top: 50%;
+            right: 10%;
+            animation: float 12s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(20px, -20px) scale(1.1); }
+            50% { transform: translate(-20px, 20px) scale(0.95); }
+            75% { transform: translate(-20px, -20px) scale(1.05); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            padding: 20px 40px;
+            background: rgba(15, 23, 42, 0.5);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 28px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--primary), var(--secondary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 20px;
+            font-size: 12px;
+            color: #6ee7b7;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #10b981;
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Main Content */
+        main {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .panel {
+            background: rgba(30, 30, 50, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .panel-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #f1f5f9;
+        }
+
+        .icon {
+            font-size: 28px;
+        }
+
+        /* Language Selector */
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .language-btn {
+            padding: 12px 16px;
+            background: rgba(139, 92, 246, 0.1);
+            border: 2px solid rgba(139, 92, 246, 0.3);
+            border-radius: 12px;
+            color: #cbd5e1;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .language-btn:hover {
+            background: rgba(139, 92, 246, 0.2);
+            border-color: rgba(139, 92, 246, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .language-btn.active {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-color: var(--primary);
+            color: white;
+            box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+        }
+
+        /* Textarea */
+        .input-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .input-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #cbd5e1;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        textarea {
+            padding: 16px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 12px;
+            color: #e2e8f0;
+            font-size: 14px;
+            font-family: 'Courier New', monospace;
+            resize: none;
+            transition: all 0.3s ease;
+            min-height: 150px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: rgba(15, 23, 42, 0.95);
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
+        }
+
+        /* Buttons */
+        .button-group {
+            display: flex;
+            gap: 12px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            flex: 1;
+            font-size: 16px;
+            padding: 14px 24px;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(139, 92, 246, 0.4);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: rgba(139, 92, 246, 0.2);
+            color: var(--primary);
+            border: 1px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(139, 92, 246, 0.3);
+        }
+
+        .spinner {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Code Output */
+        .code-output {
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            color: #6ee7b7;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            line-height: 1.5;
+        }
+
+        .copy-feedback {
+            padding: 12px 16px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 8px;
+            color: #6ee7b7;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        /* Guardrails */
+        .guardrails {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 20px;
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 12px;
+        }
+
+        .guardrail-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #6ee7b7;
+        }
+
+        .guardrail-check {
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        /* Error Message */
+        .error-message {
+            padding: 16px;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 12px;
+            color: #fca5a5;
+            font-size: 14px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .error-icon {
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(139, 92, 246, 0.1);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(139, 92, 246, 0.3);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(139, 92, 246, 0.5);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            main {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .language-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .logo {
+                font-size: 24px;
+            }
+
+            .panel {
+                padding: 20px;
+            }
+
+            .language-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            main {
+                padding: 15px;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <span>✨</span>
+                Code Wizard
+                <span>🚀</span>
+            </div>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Ready to Code
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Input Panel -->
+            <div class="panel">
+                <div class="panel-title">
+                    <span class="icon">⚙️</span>
+                    Configure
+                </div>
+
+                <div>
+                    <div class="input-label">Select Programming Language</div>
+                    <div class="language-grid">
+                        <button class="language-btn active" data-lang="python">
+                            <span>🐍</span> Python
+                        </button>
+                        <button class="language-btn" data-lang="javascript">
+                            <span>✨</span> JavaScript
+                        </button>
+                        <button class="language-btn" data-lang="java">
+                            <span>☕</span> Java
+                        </button>
+                        <button class="language-btn" data-lang="cpp">
+                            <span>⚡</span> C++
+                        </button>
+                        <button class="language-btn" data-lang="c">
+                            <span>🔧</span> C
+                        </button>
+                        <button class="language-btn" data-lang="sql">
+                            <span>🗄️</span> SQL
+                        </button>
+                    </div>
+                </div>
+
+                <div class="input-section">
+                    <div class="input-label">What Would You Like to Build?</div>
+                    <textarea id="prompt" placeholder="Describe the code you need... For example: &#10;• Write a function to check if a number is prime&#10;• Create a user login system&#10;• Build a database query for orders"></textarea>
+                </div>
+
+                <button class="btn-primary" id="generateBtn">
+                    <span id="btnIcon">⚡</span>
+                    <span id="btnText">Generate Code</span>
+                </button>
+
+                <!-- Progress Bar -->
+                <div id="progressContainer" style="display: none;">
+                    <div style="font-size: 12px; color: #cbd5e1; margin-bottom: 8px;">
+                        <span id="progressText">Generating</span>
+                    </div>
+                    <div style="width: 100%; height: 6px; background: rgba(139, 92, 246, 0.1); border-radius: 10px; overflow: hidden;">
+                        <div id="progressBar" style="height: 100%; background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent)); width: 0%; border-radius: 10px; transition: width 0.3s ease; box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);"></div>
+                    </div>
+                </div>
+
+                <div class="guardrails">
+                    <div class="guardrail-item">
+                        <span class="guardrail-check">✓</span>
+                        No Malicious Code
+                    </div>
+                    <div class="guardrail-item">
+                        <span class="guardrail-check">✓</span>
+                        SQL Safe
+                    </div>
+                    <div class="guardrail-item">
+                        <span class="guardrail-check">✓</span>
+                        Secure Patterns
+                    </div>
+                    <div class="guardrail-item">
+                        <span class="guardrail-check">✓</span>
+                        No Exploits
+                    </div>
+                </div>
+            </div>
+
+            <!-- Output Panel -->
+            <div class="panel">
+                <div class="panel-title">
+                    <span class="icon">💡</span>
+                    <span id="botName">Your Code</span>
+                </div>
+
+                <div id="outputContainer">
+                    <div style="text-align: center; padding: 40px 20px; color: #64748b;">
+                        <div style="font-size: 48px; margin-bottom: 16px;">👈</div>
+                        <p>Describe your code idea and click "Generate Code"</p>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn-secondary" id="copyBtn" style="display: none;">
+                        <span>📋</span>
+                        Copy Code
+                    </button>
+                    <button class="btn-secondary" id="clearBtn">
+                        <span>🔄</span>
+                        Clear
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const state = {
+            language: 'python',
+            botNames: {
+                python: 'PyWizard',
+                javascript: 'ScriptMaster',
+                java: 'ByteForge',
+                cpp: 'CppNinja',
+                c: 'CChain',
+                sql: 'DataAlchemy'
+            }
+        };
+
+        const elements = {
+            prompt: document.getElementById('prompt'),
+            generateBtn: document.getElementById('generateBtn'),
+            copyBtn: document.getElementById('copyBtn'),
+            clearBtn: document.getElementById('clearBtn'),
+            outputContainer: document.getElementById('outputContainer'),
+            botName: document.getElementById('botName'),
+            btnIcon: document.getElementById('btnIcon'),
+            btnText: document.getElementById('btnText'),
+            languageBtns: document.querySelectorAll('.language-btn')
+        };
+
+        // Language Selection
+        elements.languageBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                elements.languageBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                state.language = btn.dataset.lang;
+                elements.botName.textContent = state.botNames[state.language];
+                elements.outputContainer.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px; color: #64748b;">
+                        <div style="font-size: 48px; margin-bottom: 16px;">👈</div>
+                        <p>Describe your code idea and click "Generate Code"</p>
+                    </div>
+                `;
+                elements.copyBtn.style.display = 'none';
+            });
+        });
+
+        // Generate Code
+        elements.generateBtn.addEventListener('click', async () => {
+            const prompt = elements.prompt.value.trim();
+
+            if (!prompt) {
+                showError('Please describe what code you need');
+                return;
+            }
+
+            if (prompt.length > 1000) {
+                showError('Prompt is too long (max 1000 characters)');
+                return;
+            }
+
+            setLoading(true);
+
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        prompt: prompt,
+                        language: state.language
+                    })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.detail || 'Failed to generate code');
+                }
+
+                const data = await response.json();
+                displayCode(data.code, data.language);
+                
+            } catch (error) {
+                showError(error.message || 'An error occurred. Please try again.');
+            } finally {
+                setLoading(false);
+            }
+        });
+
+        // Copy Code
+        elements.copyBtn.addEventListener('click', async () => {
+            const code = elements.outputContainer.querySelector('.code-output')?.textContent;
+            if (code) {
+                try {
+                    await navigator.clipboard.writeText(code);
+                    const btn = elements.copyBtn;
+                    const originalText = btn.innerHTML;
+                    btn.innerHTML = '<span>✓</span> Copied!';
+                    setTimeout(() => {
+                        btn.innerHTML = originalText;
+                    }, 2000);
+                } catch (err) {
+                    showError('Failed to copy code');
+                }
+            }
+        });
+
+        // Clear
+        elements.clearBtn.addEventListener('click', () => {
+            elements.prompt.value = '';
+            elements.outputContainer.innerHTML = `
+                <div style="text-align: center; padding: 40px 20px; color: #64748b;">
+                    <div style="font-size: 48px; margin-bottom: 16px;">👈</div>
+                    <p>Describe your code idea and click "Generate Code"</p>
+                </div>
+            `;
+            elements.copyBtn.style.display = 'none';
+        });
+
+        function setLoading(loading) {
+            elements.generateBtn.disabled = loading;
+            const progressContainer = document.getElementById('progressContainer');
+            const progressBar = document.getElementById('progressBar');
+            
+            if (loading) {
+                elements.btnIcon.innerHTML = '<span class="spinner"></span>';
+                elements.btnText.textContent = 'Generating...';
+                progressContainer.style.display = 'block';
+                
+                // Animate progress bar
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += Math.random() * 30;
+                    if (progress > 90) progress = 90;
+                    progressBar.style.width = progress + '%';
+                    
+                    if (!elements.generateBtn.disabled) {
+                        clearInterval(interval);
+                    }
+                }, 300);
+            } else {
+                elements.btnIcon.textContent = '⚡';
+                elements.btnText.textContent = 'Generate Code';
+                progressBar.style.width = '100%';
+                
+                setTimeout(() => {
+                    progressContainer.style.display = 'none';
+                    progressBar.style.width = '0%';
+                }, 500);
+            }
+        }
+
+        function displayCode(code, language) {
+            elements.outputContainer.innerHTML = `
+                <div class="code-output">${escapeHtml(code)}</div>
+            `;
+            elements.copyBtn.style.display = 'flex';
+        }
+
+        function showError(message) {
+            elements.outputContainer.innerHTML = `
+                <div class="error-message">
+                    <span class="error-icon">⚠️</span>
+                    <div>${escapeHtml(message)}</div>
+                </div>
+            `;
+            elements.copyBtn.style.display = 'none';
+        }
+
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, m => map[m]);
+        }
+
+        // Load languages on startup
+        fetch('/api/languages')
+            .catch(err => console.log('API not yet available'));
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+2025-12-10 16:00:40 - [INFO] - main - ================================================================================
+2025-12-10 16:00:40 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 16:00:40 - [INFO] - main - ================================================================================
+2025-12-10 16:00:40 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_160040.log
+2025-12-10 16:00:40 - [INFO] - main - ⏰ Timestamp: 2025-12-10 16:00:40
+2025-12-10 16:00:40 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 16:00:40 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 16:00:40 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 16:00:40 - [INFO] - agent_v2 - ================================================================================
+2025-12-10 16:00:40 - [INFO] - agent_v2 - 🤖 Initializing Code Generator Agent...
+2025-12-10 16:00:40 - [INFO] - agent_v2 - ================================================================================
+2025-12-10 16:00:40 - [INFO] - agent_v2 - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 16:00:40 - [INFO] - agent_v2 - 📦 Model file size: 5.07 GB
+2025-12-10 16:00:40 - [INFO] - agent_v2 - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 16:00:40 - [INFO] - agent_v2 - ✅ Model loaded successfully!
+2025-12-10 16:00:40 - [DEBUG] - urllib3.connectionpool - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 16:00:40 - [DEBUG] - urllib3.connectionpool - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 16:00:40 - [DEBUG] - urllib3.connectionpool - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 16:00:40 - [DEBUG] - urllib3.connectionpool - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 16:00:40 - [DEBUG] - langsmith.client - Tracing control thread func compress parallel called
+2025-12-10 16:00:40 - [INFO] - agent_v2 - ✅ LangChain agent configured successfully
+2025-12-10 16:00:40 - [INFO] - agent_v2 - ✅ Agent ready and operational!
+2025-12-10 16:00:40 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 16:00:40 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 16:00:40 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 16:00:40 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 16:00:40 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 16:00:40 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 16:00:40 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 16:00:40 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 16:00:40 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 16:00:40 - [DEBUG] - langsmith.client - Client refs count indicates we're the only remaining reference to the client, stopping compression thread
+2025-12-10 16:00:40 - [DEBUG] - langsmith.client - Compressed traces control thread is shutting down
+2025-12-10 16:00:41 - [DEBUG] - langsmith.client - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 16:00:41 - [DEBUG] - langsmith.client - Tracing control thread is shutting down
+2025-12-10 16:00:42 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 16:00:42 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 17:07:56 - [INFO] - main - ================================================================================
+2025-12-10 17:07:56 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 17:07:56 - [INFO] - main - ================================================================================
+2025-12-10 17:07:56 - [INFO] - main - ⏱️ Session Duration: 1:07:15.858812
+2025-12-10 17:07:56 - [INFO] - main - ================================================================================
+2025-12-10 17:07:56 - [DEBUG] - langsmith.client - Closing Client.session
+2025-12-10 17:07:56 - [DEBUG] - langsmith.client - Closing Client.session

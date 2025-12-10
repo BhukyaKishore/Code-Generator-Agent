@@ -1,0 +1,26 @@
+2025-12-10 12:24:25 - [INFO] - main - ================================================================================
+2025-12-10 12:24:25 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:24:25 - [INFO] - main - ================================================================================
+2025-12-10 12:24:25 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_122425.log
+2025-12-10 12:24:25 - [INFO] - main - ⏰ Timestamp: 2025-12-10 12:24:25
+2025-12-10 12:24:25 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 12:24:25 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 12:24:25 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:24:25 - [INFO] - agent - Initializing Code Generator Agent...
+2025-12-10 12:24:25 - [INFO] - agent - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:24:25 - [INFO] - agent - ✅ Model loaded successfully!
+2025-12-10 12:24:25 - [INFO] - agent - ✅ Agent ready!
+2025-12-10 12:24:25 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 12:24:25 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:24:25 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:24:25 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:24:25 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:24:25 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:24:25 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:24:25 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:24:25 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:24:27 - [INFO] - main - ================================================================================
+2025-12-10 12:24:27 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:24:27 - [INFO] - main - ================================================================================
+2025-12-10 12:24:27 - [INFO] - main - ⏱️ Session Duration: 0:00:01.419271
+2025-12-10 12:24:27 - [INFO] - main - ================================================================================

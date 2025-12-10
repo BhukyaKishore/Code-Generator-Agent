@@ -1,0 +1,38 @@
+2025-12-10 14:37:28 - [INFO] - main - ================================================================================
+2025-12-10 14:37:28 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 14:37:28 - [INFO] - main - ================================================================================
+2025-12-10 14:37:28 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_143728.log
+2025-12-10 14:37:28 - [INFO] - main - ⏰ Timestamp: 2025-12-10 14:37:28
+2025-12-10 14:37:28 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 14:37:28 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 14:37:28 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 14:37:28 - [INFO] - agent_v2 - Initializing Code Generator Agent...
+2025-12-10 14:37:28 - [ERROR] - main - ❌ Failed to initialize agent: name 'GeminiLLM' is not defined
+Traceback (most recent call last):
+  File "/Users/kishore/Documents/AI_NOTES/code_generator_v2/main.py", line 128, in <module>
+    agent = CodeGeneratorAgent()
+  File "/Users/kishore/Documents/AI_NOTES/code_generator_v2/agent_v2.py", line 530, in __init__
+    self.gemini = GeminiLLM()
+NameError: name 'GeminiLLM' is not defined
+2025-12-10 14:37:28 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:37:28 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 14:37:28 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:37:28 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 14:37:28 - [INFO] - main - 🤖 Agent Status: ❌ Failed
+2025-12-10 14:37:28 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 14:37:28 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 14:37:28 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:37:30 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 14:37:30 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 14:38:05 - [INFO] - main - ================================================================================
+2025-12-10 14:38:05 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:38:05 - [INFO] - main - ================================================================================
+2025-12-10 14:38:05 - [INFO] - main - 🔤 Language: python
+2025-12-10 14:38:05 - [INFO] - main - 📝 Prompt: write a function to check a number is prime or not...
+2025-12-10 14:38:05 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:38:05 - [ERROR] - main - ❌ Agent not initialized - service unavailable
+2025-12-10 14:47:22 - [INFO] - main - ================================================================================
+2025-12-10 14:47:22 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 14:47:22 - [INFO] - main - ================================================================================
+2025-12-10 14:47:22 - [INFO] - main - ⏱️ Session Duration: 0:09:53.746835
+2025-12-10 14:47:22 - [INFO] - main - ================================================================================

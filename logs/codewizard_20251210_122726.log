@@ -1,0 +1,34 @@
+2025-12-10 12:27:26 - [INFO] - main - ================================================================================
+2025-12-10 12:27:26 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 12:27:26 - [INFO] - main - ================================================================================
+2025-12-10 12:27:26 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_122726.log
+2025-12-10 12:27:26 - [INFO] - main - ⏰ Timestamp: 2025-12-10 12:27:26
+2025-12-10 12:27:26 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 12:27:26 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 12:27:26 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 12:27:26 - [INFO] - agent - Initializing Code Generator Agent...
+2025-12-10 12:27:26 - [INFO] - agent - Loading model from ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 12:27:26 - [INFO] - agent - ✅ Model loaded successfully!
+2025-12-10 12:27:26 - [INFO] - agent - ✅ Agent ready!
+2025-12-10 12:27:26 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 12:27:26 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:27:26 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 12:27:26 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:27:26 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 12:27:26 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 12:27:26 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 12:27:26 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 12:27:26 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 12:27:27 - [INFO] - main - 📄 Root endpoint accessed - serving index.html
+2025-12-10 12:27:27 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 12:27:32 - [INFO] - main - 💚 Health check requested
+2025-12-10 12:27:39 - [INFO] - main - 💚 Health check requested
+2025-12-10 12:27:42 - [INFO] - main - 💚 Health check requested
+2025-12-10 12:27:43 - [INFO] - main - 💚 Health check requested
+2025-12-10 12:27:44 - [INFO] - main - 💚 Health check requested
+2025-12-10 12:28:13 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 12:28:53 - [INFO] - main - ================================================================================
+2025-12-10 12:28:53 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 12:28:53 - [INFO] - main - ================================================================================
+2025-12-10 12:28:53 - [INFO] - main - ⏱️ Session Duration: 0:01:26.573568
+2025-12-10 12:28:53 - [INFO] - main - ================================================================================

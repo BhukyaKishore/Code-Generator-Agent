@@ -1,0 +1,151 @@
+2025-12-10 14:47:25 - [INFO] - main - ================================================================================
+2025-12-10 14:47:25 - [INFO] - main - 🚀 CODE WIZARD API - APPLICATION STARTUP
+2025-12-10 14:47:25 - [INFO] - main - ================================================================================
+2025-12-10 14:47:25 - [INFO] - main - 📝 Log File: logs/codewizard_20251210_144725.log
+2025-12-10 14:47:25 - [INFO] - main - ⏰ Timestamp: 2025-12-10 14:47:25
+2025-12-10 14:47:25 - [INFO] - main - ✅ FastAPI application initialized
+2025-12-10 14:47:25 - [INFO] - main - ✅ CORS middleware configured
+2025-12-10 14:47:25 - [INFO] - main - 🔄 Initializing Code Generator Agent...
+2025-12-10 14:47:25 - [INFO] - agent_v2 - ================================================================================
+2025-12-10 14:47:25 - [INFO] - agent_v2 - 🤖 Initializing Code Generator Agent...
+2025-12-10 14:47:25 - [INFO] - agent_v2 - ================================================================================
+2025-12-10 14:47:25 - [INFO] - agent_v2 - 🔍 Checking model at ./models/qwen2.5-coder-7b-instruct-q5_k_m.gguf...
+2025-12-10 14:47:25 - [INFO] - agent_v2 - 📦 Model file size: 5.07 GB
+2025-12-10 14:47:25 - [INFO] - agent_v2 - ⏳ Loading model... This may take 1-2 minutes...
+2025-12-10 14:47:25 - [INFO] - agent_v2 - ✅ Model loaded successfully!
+2025-12-10 14:47:25 - [DEBUG] - urllib3.connectionpool - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-12-10 14:47:25 - [DEBUG] - urllib3.connectionpool - Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-12-10 14:47:26 - [DEBUG] - urllib3.connectionpool - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 848
+2025-12-10 14:47:26 - [DEBUG] - langsmith.client - Tracing control thread func compress parallel called
+2025-12-10 14:47:26 - [DEBUG] - urllib3.connectionpool - https://api.smith.langchain.com:443 "GET /commits/hwchase17/react/latest HTTP/1.1" 200 934
+2025-12-10 14:47:26 - [INFO] - agent_v2 - ✅ LangChain agent configured successfully
+2025-12-10 14:47:26 - [INFO] - agent_v2 - ✅ Agent ready and operational!
+2025-12-10 14:47:26 - [INFO] - main - ✅ Agent initialized successfully
+2025-12-10 14:47:26 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:47:26 - [INFO] - main - ✨ CODE WIZARD API - FULLY OPERATIONAL
+2025-12-10 14:47:26 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:47:26 - [INFO] - main - 🌐 Supported Languages: python, javascript, java, cpp, c, sql
+2025-12-10 14:47:26 - [INFO] - main - 🤖 Agent Status: ✅ Ready
+2025-12-10 14:47:26 - [INFO] - main - 🔐 Security Patterns: 18 rules loaded
+2025-12-10 14:47:26 - [INFO] - main - 📍 API Documentation: http://localhost:8000/docs
+2025-12-10 14:47:26 - [INFO] - main - ✨ ============================================================================ ✨
+2025-12-10 14:47:26 - [DEBUG] - langsmith.client - Client refs count indicates we're the only remaining reference to the client, stopping compression thread
+2025-12-10 14:47:26 - [DEBUG] - langsmith.client - Compressed traces control thread is shutting down
+2025-12-10 14:47:26 - [DEBUG] - langsmith.client - Client refs count indicates we're the only remaining reference to the client, stopping tracing thread
+2025-12-10 14:47:26 - [DEBUG] - langsmith.client - Tracing control thread is shutting down
+2025-12-10 14:47:29 - [INFO] - main - 📚 Languages endpoint accessed
+2025-12-10 14:47:45 - [INFO] - main - ================================================================================
+2025-12-10 14:47:45 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:47:45 - [INFO] - main - ================================================================================
+2025-12-10 14:47:45 - [INFO] - main - 🔤 Language: python
+2025-12-10 14:47:45 - [INFO] - main - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:47:45 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:47:45 - [INFO] - main - 🚀 Starting code generation for python...
+2025-12-10 14:47:45 - [INFO] - agent_v2 - 🚀 Generating python code
+2025-12-10 14:47:45 - [INFO] - agent_v2 - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:47:45 - [INFO] - agent_v2 - 🚀 Generating 9 python solutions...
+2025-12-10 14:47:51 - [INFO] - agent_v2 - ✓ Sample 1/9 generated (score: 9.50)
+2025-12-10 14:47:53 - [INFO] - agent_v2 - ✓ Sample 2/9 generated (score: 9.50)
+2025-12-10 14:47:55 - [INFO] - agent_v2 - ✓ Sample 3/9 generated (score: 9.50)
+2025-12-10 14:47:57 - [INFO] - agent_v2 - ✓ Sample 4/9 generated (score: 9.50)
+2025-12-10 14:47:59 - [INFO] - agent_v2 - ✓ Sample 5/9 generated (score: 9.50)
+2025-12-10 14:48:02 - [INFO] - agent_v2 - ✓ Sample 6/9 generated (score: 9.50)
+2025-12-10 14:48:03 - [INFO] - agent_v2 - 🏆 Best solution: Sample 1 (score: 9.50)
+2025-12-10 14:48:03 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 14:48:03 - [INFO] - main - ✅ Code generated successfully in 17.75s
+2025-12-10 14:48:03 - [INFO] - main - 📊 Generated code length: 168 characters
+2025-12-10 14:48:03 - [INFO] - main - ================================================================================
+2025-12-10 14:48:12 - [INFO] - main - ================================================================================
+2025-12-10 14:48:12 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:12 - [INFO] - main - ================================================================================
+2025-12-10 14:48:12 - [INFO] - main - 🔤 Language: cpp
+2025-12-10 14:48:12 - [INFO] - main - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:12 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:48:12 - [INFO] - main - 🚀 Starting code generation for cpp...
+2025-12-10 14:48:12 - [INFO] - agent_v2 - 🚀 Generating cpp code
+2025-12-10 14:48:12 - [INFO] - agent_v2 - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:12 - [INFO] - agent_v2 - 🚀 Generating 9 cpp solutions...
+2025-12-10 14:48:18 - [WARNING] - agent_v2 - ⚠️  All samples failed, using fallback template
+2025-12-10 14:48:18 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 14:48:18 - [INFO] - main - ✅ Code generated successfully in 5.79s
+2025-12-10 14:48:18 - [INFO] - main - 📊 Generated code length: 154 characters
+2025-12-10 14:48:18 - [INFO] - main - ================================================================================
+2025-12-10 14:48:25 - [INFO] - main - ================================================================================
+2025-12-10 14:48:25 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:25 - [INFO] - main - ================================================================================
+2025-12-10 14:48:25 - [INFO] - main - 🔤 Language: cpp
+2025-12-10 14:48:25 - [INFO] - main - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:25 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:48:25 - [INFO] - main - 🚀 Starting code generation for cpp...
+2025-12-10 14:48:25 - [INFO] - agent_v2 - 🚀 Generating cpp code
+2025-12-10 14:48:25 - [INFO] - agent_v2 - 📝 Prompt: write a python code to check a number is prime or not...
+2025-12-10 14:48:25 - [INFO] - agent_v2 - 🚀 Generating 9 cpp solutions...
+2025-12-10 14:48:28 - [WARNING] - agent_v2 - ⚠️  All samples failed, using fallback template
+2025-12-10 14:48:28 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 14:48:28 - [INFO] - main - ✅ Code generated successfully in 3.40s
+2025-12-10 14:48:28 - [INFO] - main - 📊 Generated code length: 154 characters
+2025-12-10 14:48:28 - [INFO] - main - ================================================================================
+2025-12-10 14:48:30 - [INFO] - main - ================================================================================
+2025-12-10 14:48:30 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:30 - [INFO] - main - ================================================================================
+2025-12-10 14:48:30 - [INFO] - main - 🔤 Language: cpp
+2025-12-10 14:48:30 - [INFO] - main - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:30 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:48:30 - [INFO] - main - 🚀 Starting code generation for cpp...
+2025-12-10 14:48:30 - [INFO] - agent_v2 - 🚀 Generating cpp code
+2025-12-10 14:48:30 - [INFO] - agent_v2 - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:30 - [INFO] - agent_v2 - 🚀 Generating 9 cpp solutions...
+2025-12-10 14:48:37 - [INFO] - agent_v2 - ✓ Sample 7/9 generated (score: 7.00)
+2025-12-10 14:48:38 - [INFO] - agent_v2 - 🏆 Best solution: Sample 7 (score: 7.00)
+2025-12-10 14:48:38 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 14:48:38 - [INFO] - main - ✅ Code generated successfully in 7.66s
+2025-12-10 14:48:38 - [INFO] - main - 📊 Generated code length: 464 characters
+2025-12-10 14:48:38 - [INFO] - main - ================================================================================
+2025-12-10 14:48:46 - [INFO] - main - ================================================================================
+2025-12-10 14:48:46 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:48:46 - [INFO] - main - ================================================================================
+2025-12-10 14:48:46 - [INFO] - main - 🔤 Language: java
+2025-12-10 14:48:46 - [INFO] - main - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:46 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:48:46 - [INFO] - main - 🚀 Starting code generation for java...
+2025-12-10 14:48:46 - [INFO] - agent_v2 - 🚀 Generating java code
+2025-12-10 14:48:46 - [INFO] - agent_v2 - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:48:46 - [INFO] - agent_v2 - 🚀 Generating 9 java solutions...
+2025-12-10 14:48:51 - [INFO] - agent_v2 - ✓ Sample 1/9 generated (score: 10.00)
+2025-12-10 14:48:54 - [INFO] - agent_v2 - ✓ Sample 2/9 generated (score: 10.50)
+2025-12-10 14:48:56 - [INFO] - agent_v2 - ✓ Sample 3/9 generated (score: 10.00)
+2025-12-10 14:48:59 - [INFO] - agent_v2 - ✓ Sample 4/9 generated (score: 10.00)
+2025-12-10 14:49:05 - [INFO] - agent_v2 - ✓ Sample 8/9 generated (score: 10.50)
+2025-12-10 14:49:09 - [INFO] - agent_v2 - ✓ Sample 9/9 generated (score: 10.50)
+2025-12-10 14:49:09 - [INFO] - agent_v2 - 🏆 Best solution: Sample 2 (score: 10.50)
+2025-12-10 14:49:09 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 14:49:09 - [INFO] - main - ✅ Code generated successfully in 22.59s
+2025-12-10 14:49:09 - [INFO] - main - 📊 Generated code length: 209 characters
+2025-12-10 14:49:09 - [INFO] - main - ================================================================================
+2025-12-10 14:49:20 - [INFO] - main - ================================================================================
+2025-12-10 14:49:20 - [INFO] - main - 📥 NEW CODE GENERATION REQUEST
+2025-12-10 14:49:20 - [INFO] - main - ================================================================================
+2025-12-10 14:49:20 - [INFO] - main - 🔤 Language: sql
+2025-12-10 14:49:20 - [INFO] - main - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:49:20 - [INFO] - main - ✅ Prompt validation passed
+2025-12-10 14:49:20 - [INFO] - main - 🚀 Starting code generation for sql...
+2025-12-10 14:49:20 - [INFO] - agent_v2 - 🚀 Generating sql code
+2025-12-10 14:49:20 - [INFO] - agent_v2 - 📝 Prompt: write a code to check a number is prime or not...
+2025-12-10 14:49:20 - [INFO] - agent_v2 - 🚀 Generating 9 sql solutions...
+2025-12-10 14:49:24 - [INFO] - agent_v2 - ✓ Sample 3/9 generated (score: 4.00)
+2025-12-10 14:49:26 - [INFO] - agent_v2 - ✓ Sample 5/9 generated (score: 5.00)
+2025-12-10 14:49:28 - [INFO] - agent_v2 - ✓ Sample 6/9 generated (score: 4.50)
+2025-12-10 14:49:31 - [INFO] - agent_v2 - ✓ Sample 8/9 generated (score: 5.00)
+2025-12-10 14:49:36 - [INFO] - agent_v2 - ✓ Sample 9/9 generated (score: 6.50)
+2025-12-10 14:49:36 - [INFO] - agent_v2 - 🏆 Best solution: Sample 9 (score: 6.50)
+2025-12-10 14:49:36 - [INFO] - agent_v2 - ✅ Code generation complete (status: success)
+2025-12-10 14:49:36 - [INFO] - main - ✅ Code generated successfully in 15.93s
+2025-12-10 14:49:36 - [INFO] - main - 📊 Generated code length: 292 characters
+2025-12-10 14:49:36 - [INFO] - main - ================================================================================
+2025-12-10 14:50:37 - [INFO] - main - ================================================================================
+2025-12-10 14:50:37 - [INFO] - main - 👋 CODE WIZARD API - SHUTTING DOWN
+2025-12-10 14:50:37 - [INFO] - main - ================================================================================
+2025-12-10 14:50:37 - [INFO] - main - ⏱️ Session Duration: 0:03:11.028529
+2025-12-10 14:50:37 - [INFO] - main - ================================================================================
+2025-12-10 14:50:37 - [DEBUG] - langsmith.client - Closing Client.session
+2025-12-10 14:50:37 - [DEBUG] - langsmith.client - Closing Client.session
