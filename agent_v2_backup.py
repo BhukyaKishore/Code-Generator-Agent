@@ -316,31 +316,31 @@ class LocalLLM:
     
     def __init__(self, model_path: str = MODEL_PATH):
         """Initialize the local model"""
-        logger.info(f"🔍 Checking model at {model_path}...")
+        logger.info(f" Checking model at {model_path}...")
         
         # Check if model file exists
         if not os.path.exists(model_path):
-            logger.error(f"❌ Model file not found at: {model_path}")
-            logger.error(f"📁 Please ensure the model file exists in the correct location")
-            logger.info(f"💡 Download from: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF")
+            logger.error(f"Model file not found at: {model_path}")
+            logger.error(f"Please ensure the model file exists in the correct location")
+            logger.info(f"Download from: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF")
             self.llm = None
             self.is_available = False
             return
         
         # Check file size
         file_size_gb = os.path.getsize(model_path) / (1024**3)
-        logger.info(f"📦 Model file size: {file_size_gb:.2f} GB")
+        logger.info(f"Model file size: {file_size_gb:.2f} GB")
         
         if file_size_gb < 3.0:
-            logger.warning(f"⚠️  Model file seems too small ({file_size_gb:.2f} GB). It may be corrupted.")
+            logger.warning(f"  Model file seems too small ({file_size_gb:.2f} GB). It may be corrupted.")
         
         try:
-            logger.info("⏳ Loading model... This may take 1-2 minutes...")
+            logger.info(" Loading model... This may take 1-2 minutes...")
             self.llm = Llama(**MODEL_PARAMS)
             self.is_available = True
-            logger.info("✅ Model loaded successfully!")
+            logger.info(" Model loaded successfully!")
         except Exception as e:
-            logger.error(f"❌ Error loading model: {e}")
+            logger.error(f" Error loading model: {e}")
             logger.error("Possible issues:")
             logger.error("  1. Insufficient RAM (need ~8GB for 7B model)")
             logger.error("  2. Corrupted model file - try re-downloading")
@@ -357,10 +357,10 @@ class LocalLLM:
         """Generate code using self-consistency prompting"""
         
         if not self.is_available or not self.llm:
-            logger.warning("⚠️  LLM not available, using fallback template")
+            logger.warning("  LLM not available, using fallback template")
             return self._fallback_code(prompt, language)
         
-        logger.info(f"🚀 Generating {num_samples} {language} solutions...")
+        logger.info(f"Generating {num_samples} {language} solutions...")
         
         solutions = []
         system_prompt = SYSTEM_PROMPTS.get(language, SYSTEM_PROMPTS["python"])
@@ -393,18 +393,18 @@ Output:"""
                         'score': score,
                         'sample': i + 1
                     })
-                    logger.info(f"✓ Sample {i+1}/{num_samples} generated (score: {score:.2f})")
+                    logger.info(f"Sample {i+1}/{num_samples} generated (score: {score:.2f})")
             
             except Exception as e:
-                logger.warning(f"⚠️  Sample {i+1} failed: {e}")
+                logger.warning(f"Sample {i+1} failed: {e}")
                 continue
         
         if not solutions:
-            logger.warning("⚠️  All samples failed, using fallback template")
+            logger.warning("All samples failed, using fallback template")
             return self._fallback_code(prompt, language)
         
         best = max(solutions, key=lambda x: x['score'])
-        logger.info(f"🏆 Best solution: Sample {best['sample']} (score: {best['score']:.2f})")
+        logger.info(f" Best solution: Sample {best['sample']} (score: {best['score']:.2f})")
         
         return best['code']
     
@@ -492,53 +492,53 @@ Output:"""
         """Generate fallback code based on language templates"""
         
         templates = {
-            "python": f'''# {prompt}
-def main():
-    """Main function"""
-    # Implementation here
-    pass
+                                "python": f'''# {prompt}
+                    def main():
+                        """Main function"""
+                        # Implementation here
+                        pass
 
-if __name__ == "__main__":
-    main()''',
-            
-            "javascript": f'''// {prompt}
-function main() {{
-    // Implementation here
-    return result;
-}}
+                    if __name__ == "__main__":
+                        main()''',
+                                
+                                "javascript": f'''// {prompt}
+                    function main() {{
+                        // Implementation here
+                        return result;
+                    }}
 
-main();''',
-            
-            "java": f'''// {prompt}
-public class Solution {{
-    public static void main(String[] args) {{
-        // Implementation here
-    }}
-}}''',
-            
-            "cpp": f'''// {prompt}
-#include <iostream>
-using namespace std;
+                    main();''',
+                                
+                                "java": f'''// {prompt}
+                    public class Solution {{
+                        public static void main(String[] args) {{
+                            // Implementation here
+                        }}
+                    }}''',
+                                
+                                "cpp": f'''// {prompt}
+                    #include <iostream>
+                    using namespace std;
 
-int main() {{
-    // Implementation here
-    return 0;
-}}''',
-            
-            "c": f'''// {prompt}
-#include <stdio.h>
+                    int main() {{
+                        // Implementation here
+                        return 0;
+                    }}''',
+                                
+                                "c": f'''// {prompt}
+                    #include <stdio.h>
 
-int main() {{
-    // Implementation here
-    return 0;
-}}''',
-            
-            "sql": f'''-- {prompt}
-SELECT * FROM table_name
-WHERE condition = true
-LIMIT 10;'''
-        }
-        
+                    int main() {{
+                        // Implementation here
+                        return 0;
+                    }}''',
+                                
+                                "sql": f'''-- {prompt}
+                    SELECT * FROM table_name
+                    WHERE condition = true
+                    LIMIT 10;'''
+                            }
+                            
         return templates.get(language, templates["python"])
 
 # ============================================================================
@@ -558,13 +558,13 @@ class CodeGeneratorAgent:
         self.is_ready = self.local_llm.is_available
         
         if not self.is_ready:
-            logger.error("❌ Agent initialization failed - model not available")
-            logger.error("🔧 Running in FALLBACK mode - will use templates only")
+            logger.error("Agent initialization failed - model not available")
+            logger.error("Running in FALLBACK mode - will use templates only")
             self.agent_executor = None
         else:
             # Create LangChain agent with tools
             self._setup_agent(model_path)
-            logger.info("✅ Agent ready and operational!")
+            logger.info("Agent ready and operational!")
     
     def _setup_agent(self, model_path: str):
         """Setup LangChain agent with tools"""
@@ -653,16 +653,16 @@ class CodeGeneratorAgent:
         """
         
         if language not in LANGUAGE_CONFIGS:
-            logger.warning(f"⚠️  Unsupported language: {language}, defaulting to Python")
+            logger.warning(f"  Unsupported language: {language}, defaulting to Python")
             language = "python"
         
-        logger.info(f"🚀 Generating {language} code")
-        logger.info(f"📝 Prompt: {prompt[:100]}...")
+        logger.info(f" Generating {language} code")
+        logger.info(f" Prompt: {prompt[:100]}...")
         
         code = self.local_llm.generate_with_self_consistency(prompt, language)
         
         status = "success" if self.is_ready else "fallback"
-        logger.info(f"✅ Code generation complete (status: {status})")
+        logger.info(f" Code generation complete (status: {status})")
         
         return {
             "code": code,
@@ -682,7 +682,7 @@ class CodeGeneratorAgent:
             result = self.agent_executor.invoke({"input": query})
             return result["output"]
         except Exception as e:
-            logger.error(f"❌ Agent execution error: {e}")
+            logger.error(f" Agent execution error: {e}")
             return f"Error: {str(e)}"
     
     def health_check(self) -> Dict[str, Any]:
@@ -708,13 +708,13 @@ if __name__ == "__main__":
     # Health check
     health = agent.health_check()
     print("\n" + "="*80)
-    print("🏥 HEALTH CHECK")
+    print(" HEALTH CHECK")
     print("="*80)
     for key, value in health.items():
         print(f"{key}: {value}")
     
     if not agent.is_ready:
-        print("\n⚠️  WARNING: Agent running in FALLBACK mode")
+        print("\n  WARNING: Agent running in FALLBACK mode")
         print("Generated code will be templates only")
         print("\nTo fix:")
         print(f"1. Download model to: {MODEL_PATH}")
@@ -723,7 +723,7 @@ if __name__ == "__main__":
     else:
         # Example usage
         print("\n" + "="*80)
-        print("📝 EXAMPLE: Code Generation")
+        print(" EXAMPLE: Code Generation")
         print("="*80 + "\n")
         
         result = agent.generate_code(
